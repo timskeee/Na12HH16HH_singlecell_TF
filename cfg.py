@@ -26,6 +26,7 @@ cfg.printPopAvgRates = True
 # Recording
 #########################################################################################
 cfg.recordStim = True
+#cfg.recordCells = ['PT5B']
 cfg.recordTraces = {'V_soma':{'sec': 'soma', 'loc': 0.5, 'var': 'v'}}
 cfg.recordStep = 0.1 #step size to save data (e.g. voltage traces, LFP, et.)
 
