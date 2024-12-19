@@ -80,6 +80,11 @@ if 'PT5B' not in loadCellParams:
     netParams.cellParams['PT5B_full']['conds'] = {'cellModel': 'HH_full', 'cellType': 'PT'}
     if saveCellParams: netParams.saveCellParamsRule(label='PT5B_full', fileName='Na12HH16HH_TF.json')
 
+###############################################################################
+# Population parameters
+###############################################################################
+netParams.popParams['PT5B'] =	{'cellModel': 'HH_full', 'cellType': 'PT', 'numCells': 1}
+
 # ------------------------------------------------------------------------------
 # Current inputs (IClamp)
 # ------------------------------------------------------------------------------

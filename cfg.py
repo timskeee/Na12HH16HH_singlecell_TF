@@ -20,11 +20,12 @@ cfg.duration = 1*1e3 # Duration of simulation in ms
 cfg.dt = 0.025 # Internal integration time step (ms)
 cfg.hParams = {'celsius': 34, 'v_init':-80}
 cfg.verbose = False # Show detailed messages
+cfg.printPopAvgRates = True
 
 #########################################################################################
 # Recording
 #########################################################################################
-allpops = ['PT5B']
+cfg.recordStim = True
 cfg.recordTraces = {'V_soma':{'sec': 'soma', 'loc': 0.5, 'var': 'v'}}
 cfg.recordStep = 0.1 #step size to save data (e.g. voltage traces, LFP, et.)
 

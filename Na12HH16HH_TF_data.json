@@ -3,7 +3,7 @@
         "cells": [],
         "params": {
             "cellParams": {
-                "PT": {
+                "PT5B": {
                     "conds": {
                         "cellModel": "HH_full",
                         "cellType": "PT"
@@ -74185,7 +74185,13 @@
             "mapping": {
                 "__dict__": {}
             },
-            "popParams": {},
+            "popParams": {
+                "PT5B": {
+                    "cellModel": "HH_full",
+                    "cellType": "PT",
+                    "numCells": 1
+                }
+            },
             "popTagsCopiedToCells": [
                 "cellModel",
                 "cellType"
@@ -74210,9 +74216,9 @@
                 }
             },
             "stimTargetParams": {
-                "IClamp1_PT": {
+                "IClamp1_PT5B": {
                     "conds": {
-                        "pop": "PT"
+                        "pop": "PT5B"
                     },
                     "loc": 0.5,
                     "sec": "soma",
@@ -74231,7 +74237,7 @@
             "amp": 0.1,
             "dur": 1000,
             "loc": 0.5,
-            "pop": "PT",
+            "pop": "PT5B",
             "sec": "soma",
             "start": 0
         },
@@ -74292,7 +74298,7 @@
         "includeParamsLabel": true,
         "invertedYCoord": true,
         "oneSynPerNetcon": true,
-        "printPopAvgRates": false,
+        "printPopAvgRates": true,
         "printRunTime": false,
         "printSynsAfterRule": false,
         "progressBar": 2,
@@ -74305,7 +74311,7 @@
         "recordDipolesHNN": false,
         "recordLFP": [],
         "recordStep": 0.1,
-        "recordStim": false,
+        "recordStim": true,
         "recordTime": true,
         "recordTraces": {
             "V_soma": {
@@ -74354,8 +74360,10 @@
     "simData": {
         "V_soma": {},
         "avgRate": 0,
+        "popRates": {},
         "spkid": [],
         "spkt": [],
+        "stims": {},
         "t": [
             0.0,
             0.1,
