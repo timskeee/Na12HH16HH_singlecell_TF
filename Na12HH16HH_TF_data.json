@@ -74227,16 +74227,16 @@
             "sizeZ": 100,
             "stimSourceParams": {
                 "IClamp1": {
-                    "amp": 0.1,
-                    "delay": 0,
-                    "dur": 1000,
+                    "amp": 0.05,
+                    "delay": 100,
+                    "dur": 500,
                     "type": "IClamp"
                 }
             },
             "stimTargetParams": {
-                "IClamp1_PT5B_full": {
+                "IClamp1_PT5B": {
                     "conds": {
-                        "pop": "PT5B_full"
+                        "pop": "PT5B"
                     },
                     "loc": 0.5,
                     "sec": "soma",
@@ -74263,12 +74263,12 @@
     "netpyne_version": "1.0.7",
     "simConfig": {
         "IClamp1": {
-            "amp": 0.1,
-            "dur": 1000,
+            "amp": 0.05,
+            "dur": 500,
             "loc": 0.5,
-            "pop": "PT5B_full",
+            "pop": "PT5B",
             "sec": "soma",
-            "start": 0
+            "start": 100
         },
         "NetStim1": {
             "delay": 0,
@@ -74331,7 +74331,9 @@
         "pt3dRelativeToCellLocation": true,
         "rand123GlobalIndex": null,
         "random123": false,
-        "recordCells": [],
+        "recordCells": [
+            0
+        ],
         "recordCellsSpikes": -1,
         "recordDipole": false,
         "recordDipolesHNN": false,

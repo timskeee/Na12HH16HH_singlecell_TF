@@ -38,7 +38,6 @@ if loadCellParams:
 #------------------------------------------------------------------------------
 
 if not loadCellParams:
-
     # import cell model from NEURON/Python code
     netParams.importCellParams('PT5B_full', 'Na12HMMModel_TF.py', 'Na12Model_TF')
 
@@ -61,13 +60,8 @@ if not loadCellParams:
     cellRule['secs']['soma']['threshold'] = 0.
     cellRule['secs']['axon_0']['threshold'] = 0.
 
-    # remove the 3d detailed morphologies in axons since not used
-    del netParams.cellParams['PT5B_full']['secs']['axon_0']['geom']['pt3d']
-    del netParams.cellParams['PT5B_full']['secs']['axon_1']['geom']['pt3d']
-
     # svae to json with all the above modifications so easier/faster to load
     if saveCellParams: netParams.saveCellParamsRule(label='PT5B_full', fileName='Na12HH16HH_TF.json')
-
 
 
 ###############################################################################

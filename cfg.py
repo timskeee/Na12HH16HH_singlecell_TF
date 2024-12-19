@@ -26,7 +26,7 @@ cfg.printPopAvgRates = True
 # Recording
 #########################################################################################
 cfg.recordStim = True
-#cfg.recordCells = ['PT5B']
+cfg.recordCells = [0]
 cfg.recordTraces = {'V_soma':{'sec': 'soma', 'loc': 0.5, 'var': 'v'}}
 cfg.recordStep = 0.1 #step size to save data (e.g. voltage traces, LFP, et.)
 
@@ -48,7 +48,7 @@ cfg.analysis['plotTraces'] = {'saveFig': True} # Plot Traces
 # Current Inputs
 #########################################################################################
 cfg.addIClamp = 1
-cfg.IClamp1 = {'pop': 'PT5B_full' ,'sec': 'soma', 'loc': 0.5, 'start': 0, 'dur': 1000, 'amp': 0.1}
+cfg.IClamp1 = {'pop': 'PT5B' ,'sec': 'dend_20', 'loc': 0.5, 'start': 100, 'dur': 500, 'amp': 0.05}
 
 #########################################################################################
 # NetStim Inputs
