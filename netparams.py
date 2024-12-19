@@ -19,71 +19,67 @@ except:
 #
 #########################################################################################
 netParams = specs.NetParams() # Object class NetParams to store network parameters
-#netParams.version = 1  # Can specify version when tuning or making changes to keep track
 
-#########################################################################################
+###############################################################################
+# Cell parameters
+###############################################################################
+
+#------------------------------------------------------------------------------
 # Load cell rules previously saved using netpyne format
-#########################################################################################
-cellParamLabels = ['PT5B']
-loadCellParams = cellParamLabels
-saveCellParams = False
+#------------------------------------------------------------------------------
+loadCellParams = True
+saveCellParams = True
 
-for ruleLabel in loadCellParams:
-    netParams.loadCellParamsRule(label=ruleLabel, fileName='Na12HH16HH_TF.json')
+if loadCellParams:
+    netParams.loadCellParamsRule(label='PT5B_full', fileName='Na12HH16HH_TF.json')
 
-#########################################################################################
-# Specfication of cell rules not previously loaded using netpyne
+#------------------------------------------------------------------------------
 # Includes importing from hoc template or python class, and setting additional params
-#########################################################################################
-if 'PT5B' not in loadCellParams:
-    netParams.importCellParams('PT5B_full', 'Na12HHMModel_TF.py', 'Na12Model_TF')
+#------------------------------------------------------------------------------
+
+if not loadCellParams:
+
+    # import cell model from NEURON/Python code
+    netParams.importCellParams('PT5B_full', 'Na12HMMModel_TF.py', 'Na12Model_TF')
+
+    # rename soma to conform to netpyne standard
     netParams.renameCellParamsSec(label='PT5B_full', oldSec='soma_0', newSec='soma')
 
+    # set variable so easier to work with below
     cellRule = netParams.cellParams['PT5B_full']
 
-    cellRule['secs']['axon_0']['geom']['pt3d'] = [[0, 0, 0, 0]]  # stupid workaround that should be fixed in NetPyNE
-    cellRule['secs']['axon_1']['geom']['pt3d'] = [
-            [1e30, 1e30, 1e30, 1e30]]  # breaks in simulations btw. Just used for the perisom and below_soma sections
-
-    nonSpiny = ['apic_0', 'apic_1']
-
-    netParams.addCellParamsSecList(label='PT5B_full', secListName='perisom',
-                                       somaDist=[0, 50])  # sections within 50 um of soma
-    netParams.addCellParamsSecList(label='PT5B_full', secListName='below_soma',
-                                       somaDistY=[-600, 0])  # sections within 0-300 um of soma
-
-    for sec in nonSpiny:  # N.B. apic_1 not in `perisom` . `apic_0` and `apic_114` are
-        if sec in cellRule['secLists']['perisom']:  # fixed logic
-            cellRule['secLists']['perisom'].remove(sec)
-    cellRule['secLists']['alldend'] = [sec for sec in cellRule['secs'] if
-                                           ('dend' in sec or 'apic' in sec)]  # basal+apical
+    # create some section lists useful to define the locations of synapses
+    cellRule['secLists']['alldend'] = [sec for sec in cellRule['secs'] if ('dend' in sec or 'apic' in sec)]  # basal+apical
     cellRule['secLists']['apicdend'] = [sec for sec in cellRule['secs'] if ('apic' in sec)]  # apical
+    nonSpiny = ['apic_0', 'apic_1']
     cellRule['secLists']['spiny'] = [sec for sec in cellRule['secLists']['alldend'] if sec not in nonSpiny]
 
-
+    # set the spike generation location to the axon (default in NEURON is the soma)
     cellRule['secs']['axon_0']['spikeGenLoc'] = 0.5
-    cellRule['secs']['soma'][
-        'threshold'] = 0.  # Lowering since it looks like v in soma is not reaching high voltages when spike occurs
-    cellRule['secs']['axon_0'][
-            'threshold'] = 0.  # Lowering since it looks like v in soma is not reaching high voltages when spike occurs
 
-   # cellRule['secs']['soma']['mechs']['na12']['gbar'] *= cfg.PTNaFactor
-   # for secName in cellRule['secLists']['apicdend']:
-      #  cellRule['secs'][secName]['mechs']['na12']['gbar'] *= cfg.PTNaFactor
+    # Lowering V threshold since it looks like v in soma is not reaching high voltages when spike occurs
+    cellRule['secs']['soma']['threshold'] = 0.
+    cellRule['secs']['axon_0']['threshold'] = 0.
 
-   # for i in range(len(cellRule['secs']['axon_0']['mechs']['na12']['gbar'])):
-       # cellRule['secs']['axon_0']['mechs']['na12']['gbar'][i] *= cfg.PTNaFactor
-
+    # remove the 3d detailed morphologies in axons since not used
     del netParams.cellParams['PT5B_full']['secs']['axon_0']['geom']['pt3d']
     del netParams.cellParams['PT5B_full']['secs']['axon_1']['geom']['pt3d']
 
-    netParams.cellParams['PT5B_full']['conds'] = {'cellModel': 'HH_full', 'cellType': 'PT'}
+    # svae to json with all the above modifications so easier/faster to load
     if saveCellParams: netParams.saveCellParamsRule(label='PT5B_full', fileName='Na12HH16HH_TF.json')
+
+
 
 ###############################################################################
 # Population parameters
 ###############################################################################
-netParams.popParams['PT5B'] =	{'cellModel': 'HH_full', 'cellType': 'PT', 'numCells': 1}
+
+netParams.popParams['PT5B'] =	{'cellType': 'PT5B_full', 'numCells': 1}
+
+
+###############################################################################
+# Stimulation parameters
+###############################################################################
 
 # ------------------------------------------------------------------------------
 # Current inputs (IClamp)

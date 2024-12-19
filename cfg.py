@@ -41,14 +41,14 @@ cfg.saveDataInclude = ['simData', 'simConfig', 'netParams', 'net']
 #########################################################################################
 # Analysis and Plotting
 #########################################################################################
-cfg.analysis['plotRaster'] = {'saveFig': True} # Plot Raster
+#cfg.analysis['plotRaster'] = {'saveFig': True} # Plot Raster
 cfg.analysis['plotTraces'] = {'saveFig': True} # Plot Traces
 
 #########################################################################################
 # Current Inputs
 #########################################################################################
 cfg.addIClamp = 1
-cfg.IClamp1 = {'pop': 'PT5B' ,'sec': 'soma', 'loc': 0.5, 'start': 0, 'dur': 1000, 'amp': 0.1}
+cfg.IClamp1 = {'pop': 'PT5B_full' ,'sec': 'soma', 'loc': 0.5, 'start': 0, 'dur': 1000, 'amp': 0.1}
 
 #########################################################################################
 # NetStim Inputs

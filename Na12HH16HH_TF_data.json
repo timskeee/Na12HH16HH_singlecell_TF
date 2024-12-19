@@ -1,9 +1,27 @@
 {
     "net": {
-        "cells": [],
+        "cells": [
+            {
+                "conns": [],
+                "gid": 0,
+                "secLists": {},
+                "secs": {},
+                "stims": [],
+                "tags": {
+                    "cellType": "PT5B_full",
+                    "pop": "PT5B",
+                    "x": 35.83531143706401,
+                    "xnorm": 0.3583531143706401,
+                    "y": 39.84944342173416,
+                    "ynorm": 0.3984944342173416,
+                    "z": 87.63654583887276,
+                    "znorm": 0.8763654583887277
+                }
+            }
+        ],
         "params": {
             "cellParams": {
-                "PT5B": {
+                "PT5B_full": {
                     "conds": {
                         "cellModel": "HH_full",
                         "cellType": "PT"
@@ -74187,9 +74205,9 @@
             },
             "popParams": {
                 "PT5B": {
-                    "cellModel": "HH_full",
-                    "cellType": "PT",
-                    "numCells": 1
+                    "cellType": "PT5B_full",
+                    "numCells": 1,
+                    "pop": "PT5B"
                 }
             },
             "popTagsCopiedToCells": [
@@ -74216,9 +74234,9 @@
                 }
             },
             "stimTargetParams": {
-                "IClamp1_PT5B": {
+                "IClamp1_PT5B_full": {
                     "conds": {
-                        "pop": "PT5B"
+                        "pop": "PT5B_full"
                     },
                     "loc": 0.5,
                     "sec": "soma",
@@ -74228,7 +74246,18 @@
             "subConnParams": {},
             "synMechParams": {}
         },
-        "pops": {}
+        "pops": {
+            "PT5B": {
+                "cellGids": [
+                    0
+                ],
+                "tags": {
+                    "cellType": "PT5B_full",
+                    "numCells": 1,
+                    "pop": "PT5B"
+                }
+            }
+        }
     },
     "netpyne_changeset": "",
     "netpyne_version": "1.0.7",
@@ -74237,7 +74266,7 @@
             "amp": 0.1,
             "dur": 1000,
             "loc": 0.5,
-            "pop": "PT5B",
+            "pop": "PT5B_full",
             "sec": "soma",
             "start": 0
         },
@@ -74268,9 +74297,6 @@
         "allowConnsWithWeight0": true,
         "allowSelfConns": false,
         "analysis": {
-            "plotRaster": {
-                "saveFig": true
-            },
             "plotTraces": {
                 "saveFig": true
             }
@@ -74360,10 +74386,14 @@
     "simData": {
         "V_soma": {},
         "avgRate": 0,
-        "popRates": {},
+        "popRates": {
+            "PT5B": 0.0
+        },
         "spkid": [],
         "spkt": [],
-        "stims": {},
+        "stims": {
+            "cell_0": {}
+        },
         "t": [
             0.0,
             0.1,
