@@ -24,7 +24,7 @@ netParams = specs.NetParams() # Object class NetParams to store network paramete
 #########################################################################################
 # Load cell rules previously saved using netpyne format
 #########################################################################################
-cellParamLabels = ['PT']
+cellParamLabels = ['PT5B']
 loadCellParams = cellParamLabels
 saveCellParams = False
 
@@ -35,7 +35,7 @@ for ruleLabel in loadCellParams:
 # Specfication of cell rules not previously loaded using netpyne
 # Includes importing from hoc template or python class, and setting additional params
 #########################################################################################
-if 'PT' not in loadCellParams:
+if 'PT5B' not in loadCellParams:
     netParams.importCellParams('PT5B_full', 'Na12HHMModel_TF.py', 'Na12Model_TF')
     netParams.renameCellParamsSec(label='PT5B_full', oldSec='soma_0', newSec='soma')
 
@@ -67,12 +67,12 @@ if 'PT' not in loadCellParams:
     cellRule['secs']['axon_0'][
             'threshold'] = 0.  # Lowering since it looks like v in soma is not reaching high voltages when spike occurs
 
-    cellRule['secs']['soma']['mechs']['na12']['gbar'] *= cfg.PTNaFactor
-    for secName in cellRule['secLists']['apicdend']:
-        cellRule['secs'][secName]['mechs']['na12']['gbar'] *= cfg.PTNaFactor
+   # cellRule['secs']['soma']['mechs']['na12']['gbar'] *= cfg.PTNaFactor
+   # for secName in cellRule['secLists']['apicdend']:
+      #  cellRule['secs'][secName]['mechs']['na12']['gbar'] *= cfg.PTNaFactor
 
-    for i in range(len(cellRule['secs']['axon_0']['mechs']['na12']['gbar'])):
-        cellRule['secs']['axon_0']['mechs']['na12']['gbar'][i] *= cfg.PTNaFactor
+   # for i in range(len(cellRule['secs']['axon_0']['mechs']['na12']['gbar'])):
+       # cellRule['secs']['axon_0']['mechs']['na12']['gbar'][i] *= cfg.PTNaFactor
 
     del netParams.cellParams['PT5B_full']['secs']['axon_0']['geom']['pt3d']
     del netParams.cellParams['PT5B_full']['secs']['axon_1']['geom']['pt3d']

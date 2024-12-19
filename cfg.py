@@ -24,7 +24,8 @@ cfg.verbose = False # Show detailed messages
 #########################################################################################
 # Recording
 #########################################################################################
-cfg.recordTraces = {'V_soma':{'sec': 'soma', 'loc':0.5, 'var':v}}
+allpops = ['PT5B']
+cfg.recordTraces = {'V_soma':{'sec': 'soma', 'loc': 0.5, 'var': 'v'}}
 cfg.recordStep = 0.1 #step size to save data (e.g. voltage traces, LFP, et.)
 
 #########################################################################################
@@ -45,13 +46,12 @@ cfg.analysis['plotTraces'] = {'saveFig': True} # Plot Traces
 # Current Inputs
 #########################################################################################
 cfg.addIClamp = 1
-cfg.IClamp1 = {'pop': 'PT5B_full' ,'sec': 'soma', 'loc': 0.5, 'start': 0, 'dur': 1000, 'amp': 0.1}
+cfg.IClamp1 = {'pop': 'PT5B' ,'sec': 'soma', 'loc': 0.5, 'start': 0, 'dur': 1000, 'amp': 0.1}
 
 #########################################################################################
 # NetStim Inputs
 #########################################################################################
-cfg.addNetStim = 0      #change to 1 to add NetStim
+cfg.addNetStim = 0     #change to 1 to add NetStim
 
-cfg.NetStim1 = {'pop': 'PT5B_full', 'ynorm':[0,1], 'sec': 'soma', 'loc': 0.5, 'synMech': ['AMPA'],
-                'synMechWeightFactor': [1.0], 'start': 500, 'interval': 1000.0/60.0, 'noise': 0.0,
-                'number': 60.0, 'weight': 30.0, 'delay': 0}
+cfg.NetStim1 = {'pop': 'PT5B_full', 'ynorm':[0,1], 'sec': 'soma', 'loc': 0.5, 'synMech': ['AMPA'], 'synMechWeightFactor': [1.0],
+				'start': 0, 'interval': 1000.0/40.0, 'noise': 0.0, 'number': 1000.0, 'weight': 10.0, 'delay': 0}

@@ -13,8 +13,7 @@ cfg, netParams = sim.readCmdLineArgs(simConfigDefault='cfg.py', netParamsDefault
 sim.initialize(
     simConfig = cfg,
     netParams = netParams)  				# create network object and set cfg and net params
-sim.net.createPops()               			# instantiate network populations
-sim.net.createCells()              			# instantiate network cells based on defined populations           			# create connections between cells based on params
+sim.net.createCells()             			# instantiate network cells based on defined populations           			# create connections between cells based on params
 sim.net.addStims() 							# add network stimulation
 sim.setupRecording()              			# setup variables to record for each cell (spikes, V traces, etc)
 sim.runSim()                      			# run parallel Neuron simulation
