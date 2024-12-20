@@ -6,160 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="005d02eb-66f1-4331-93ff-fc6f8095df50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Na12HH16HH_TF.json" beforeDir="false" afterPath="$PROJECT_DIR$/Na12HH16HH_TF.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Na12HH16HH_TF_data.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Na12HH16HH_TF_traces.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/L5PCModel.py" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/L5PCModel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/NaV12_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/NaV12_analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/RBS2021Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/RBS2021Model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/RBS2021Model_Old" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/RBS2021Model_Old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/README" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/Stims/Step_8_.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/Stims/Step_8_.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/Stims/Stim_raw.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/Stims/Stim_raw.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/Stims/stimF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/Stims/stimF.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/Stims/times.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/Stims/times.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/Stims/times.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/Stims/times.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/Volts/exp_data_from_an.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/Volts/exp_data_from_an.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/axon_utils.hoc" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/axon_utils.hoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/biophysics.hoc" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/biophysics.hoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/cellinfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/cellinfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/constants.hoc" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/constants.hoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/creategui.hoc" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/creategui.hoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/createsimulation.hoc" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/createsimulation.hoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/fit.hoc" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/fit.hoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/gui.ses" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/gui.ses" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/init.hoc" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/init.hoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/CaDynamics_E2.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/CaDynamics_E2.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/Ca_HVA.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/Ca_HVA.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/Ca_LVAst.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/Ca_LVAst.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/Ih.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/Ih.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/Im.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/Im.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/K_Pst.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/K_Pst.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/K_Tst.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/K_Tst.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/ProbAMPANMDA_EMS.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/ProbAMPANMDA_EMS.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/ProbGABAAB_EMS.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/ProbGABAAB_EMS.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/SK_E2.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/SK_E2.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/SKv3_1.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/SKv3_1.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/branching.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/branching.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na12.mod.HMMmod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na12.mod.HMMmod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na12.mod.bak2" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na12.mod.bak2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na12.mod.hh" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na12.mod.hh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na12_mut.hh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na12_mut.hh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na12_mut.mod.na12b" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na12_mut.mod.na12b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na12annaTFHH.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na12annaTFHH.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na12annaTFHHmut.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na12annaTFHHmut.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na12mut.mod.HMMmod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na12mut.mod.HMMmod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na16.mod.HMMmodel.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na16.mod.HMMmodel.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na16.mod.originalHH022024.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na16.mod.originalHH022024.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na16.mod___HH032224.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na16.mod___HH032224.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na16HH_TF.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na16HH_TF.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na16HH_TF_old.mod.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na16HH_TF_old.mod.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na16HHmut_TF_wtcopy.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na16HHmut_TF_wtcopy.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na16_mut.mod.HMMmodel" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na16_mut.mod.HMMmodel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na16_mut.mod.originalHH030524.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na16_mut.mod.originalHH030524.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na16_mut.mod.originatlHH022024.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na16_mut.mod.originatlHH022024.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/na16mut_wtcopy.mod.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/na16mut_wtcopy.mod.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mechanisms/vclmp_pl.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mechanisms/vclmp_pl.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/morphology.hoc" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/morphology.hoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/morphology/dend-C060114A2_axon-C060114A5.asc" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/morphology/dend-C060114A2_axon-C060114A5.asc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/morphology/morph.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/morphology/morph.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/mosinit.hoc" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/mosinit.hoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/params/na12WT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/params/na12WT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/params/na12WT2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/params/na12WT2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/params/na16WT.Bak" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/params/na16WT.Bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/params/na16WT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/params/na16WT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/params/orig.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/params/orig.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/plotter_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/plotter_helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/printSh.hoc" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/printSh.hoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/ringplot.hoc" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/ringplot.hoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/runModel.hoc" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/runModel.hoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/run_RmpRiTau.py" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/run_RmpRiTau.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/scalebary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/scalebary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/template.hoc" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/template.hoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/topo_code.hoc" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/topo_code.hoc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/Neuron_Model_12HMM16HH/vm_plotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Neuron_Model_12HMM16HH/vm_plotter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/CaDynamics_E2.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/CaDynamics_E2.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/Ca_HVA.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/Ca_HVA.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/Ca_LVAst.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/Ca_LVAst.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/HCN1.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/HCN1.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/IC.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/IC.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/IKsin.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/IKsin.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/Ih.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/Ih.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/Im.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/Im.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/K_Pst.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/K_Pst.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/K_Tst.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/K_Tst.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/MyExp2SynBB.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/MyExp2SynBB.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/MyExp2SynNMDABB.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/MyExp2SynNMDABB.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/Nca.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/Nca.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/ProbAMPANMDA_EMS.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/ProbAMPANMDA_EMS.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/ProbGABAAB_EMS.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/ProbGABAAB_EMS.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/SK_E2.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/SK_E2.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/SKv3_1.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/SKv3_1.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/ar_traub.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/ar_traub.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/branching.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/branching.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/cadad.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/cadad.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/cadyn.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/cadyn.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/cagk.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/cagk.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/cal_mh.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/cal_mh.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/cal_mig.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/cal_mig.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/can_mig.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/can_mig.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/cancr.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/cancr.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/canin.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/canin.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/cat_mig.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/cat_mig.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/cat_traub.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/cat_traub.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/catcb.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/catcb.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/ch_CavL.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/ch_CavL.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/ch_CavN.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/ch_CavN.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/ch_KCaS.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/ch_KCaS.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/ch_Kdrfastngf.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/ch_Kdrfastngf.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/ch_KvAngf.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/ch_KvAngf.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/ch_KvCaB.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/ch_KvCaB.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/ch_Navngf.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/ch_Navngf.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/ch_leak.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/ch_leak.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/dipole.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/dipole.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/dipole_pp.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/dipole_pp.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/gabab.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/gabab.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/ghk.inc" beforeDir="false" afterPath="$PROJECT_DIR$/mod/ghk.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/h_BS.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/h_BS.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/h_harnett.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/h_harnett.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/h_kole.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/h_kole.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/h_migliore.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/h_migliore.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/hin.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/hin.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/ican_sidi.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/ican_sidi.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/iccr.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/iccr.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/iconc_Ca.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/iconc_Ca.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/ikscr.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/ikscr.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/kBK.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/kBK.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/kap_BS.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/kap_BS.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/kapcb.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/kapcb.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/kapin.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/kapin.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/kca.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/kca.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/kctin.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/kctin.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/kdmc_BS.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/kdmc_BS.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/kdr_BS.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/kdr_BS.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/kdrcr.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/kdrcr.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/kdrin.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/kdrin.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/km.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/km.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/kv.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/kv.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/misc.h" beforeDir="false" afterPath="$PROJECT_DIR$/mod/misc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/my_exp2syn.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/my_exp2syn.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/na12annaTFHH.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/na12annaTFHH.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/na12annaTFHHmut.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/na12annaTFHHmut.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/na16HH_TF.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/na16HH_TF.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/na16HHmut_TF_wtcopy.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/na16HHmut_TF_wtcopy.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/nafcr.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/nafcr.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/nafx.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/nafx.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/nap_sidi.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/nap_sidi.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/nax_BS.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/nax_BS.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/naz.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/naz.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/parameters.multi" beforeDir="false" afterPath="$PROJECT_DIR$/mod/parameters.multi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/savedist.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/savedist.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/vclmp_pl.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/vclmp_pl.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Na12HMMModel_TF/mod/vecstim.mod" beforeDir="false" afterPath="$PROJECT_DIR$/mod/vecstim.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cfg.py" beforeDir="false" afterPath="$PROJECT_DIR$/cfg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.py" beforeDir="false" afterPath="$PROJECT_DIR$/init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netparams.py" beforeDir="false" afterPath="$PROJECT_DIR$/netParams.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +97,7 @@
       <workItem from="1734540924495" duration="723000" />
       <workItem from="1734620239984" duration="5442000" />
       <workItem from="1734626850659" duration="6654000" />
-      <workItem from="1734650021069" duration="824000" />
+      <workItem from="1734650021069" duration="1480000" />
     </task>
     <servers />
   </component>
@@ -256,7 +105,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Na12HH16HH_singlecell$init.coverage" NAME="init Coverage Results" MODIFIED="1734650825989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Na12HH16HH_singlecell$init.coverage" NAME="init Coverage Results" MODIFIED="1734650914854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Na12HH16HH_singlecell$cfg.coverage" NAME="cfg Coverage Results" MODIFIED="1734623979775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Na12HH16HH_singlecell$netparams.coverage" NAME="netparams Coverage Results" MODIFIED="1734623022692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
