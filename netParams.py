@@ -28,7 +28,7 @@ netParams = specs.NetParams() # Object class NetParams to store network paramete
 # Load cell rules previously saved using netpyne format
 #------------------------------------------------------------------------------
 loadCellParams = True
-saveCellParams = True
+saveCellParams = False
 
 if loadCellParams:
    netParams.loadCellParamsRule(label='PT5B_full', fileName='Na12HH16HH.json')
