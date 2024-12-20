@@ -5,7 +5,6 @@ Created on Sat Oct 16 21:07:44 2021
 @author: bensr
 """
 
-import numpy as np
 from vm_plotter import *
 from neuron import h
 import json

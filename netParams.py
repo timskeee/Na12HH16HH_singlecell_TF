@@ -31,7 +31,7 @@ loadCellParams = True
 saveCellParams = True
 
 if loadCellParams:
-    netParams.loadCellParamsRule(label='PT5B_full', fileName='Na12HH16HH_TF.json')
+   netParams.loadCellParamsRule(label='PT5B_full', fileName='Na12HH16HH.json')
 
 #------------------------------------------------------------------------------
 # Includes importing from hoc template or python class, and setting additional params
@@ -39,7 +39,7 @@ if loadCellParams:
 
 if not loadCellParams:
     # import cell model from NEURON/Python code
-    netParams.importCellParams('PT5B_full', 'Na12HMMModel_TF.py', 'Na12Model_TF')
+    netParams.importCellParams('PT5B_full', 'Na12HH16HHModel_TF.py', 'Na12Model_TF')
 
     # rename soma to conform to netpyne standard
     netParams.renameCellParamsSec(label='PT5B_full', oldSec='soma_0', newSec='soma')
