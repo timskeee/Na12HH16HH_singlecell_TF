@@ -27,11 +27,11 @@ netParams = specs.NetParams() # Object class NetParams to store network paramete
 #------------------------------------------------------------------------------
 # Load cell rules previously saved using netpyne format
 #------------------------------------------------------------------------------
-loadCellParams = True
+loadCellParams = False
 saveCellParams = False
 
 if loadCellParams:
-   netParams.loadCellParamsRule(label='PT5B_full', fileName='Na12HH16HH.json')
+   netParams.loadCellParamsRule(label='PT5B_full', fileName='Na12HH16HH_TF.json')
 
 #------------------------------------------------------------------------------
 # Includes importing from hoc template or python class, and setting additional params
@@ -103,17 +103,8 @@ if cfg.addNetStim:
         params = getattr(cfg, key, None)
         [pop, ynorm, sec, loc, synMech, synMechWeightFactor, start, interval, noise, number, weight, delay] = \
             [params[s] for s in
-             ['pop', 'ynorm', 'sec', 'loc', 'synMech', 'synMechWeightFactor', 'start', 'interval', 'noise', 'number',
+             ['pop', 'sec', 'loc', 'synMech', 'synMechWeightFactor', 'start', 'interval', 'noise', 'number',
               'weight', 'delay']]
-
-        # cfg.analysis['plotTraces']['include'] = [(pop,0)]
-
-        if synMech == ESynMech:
-            wfrac = cfg.synWeightFractionEE
-        elif synMech == SOMESynMech:
-            wfrac = cfg.synWeightFractionSOME
-        else:
-            wfrac = [1.0]
 
         # add stim source
         netParams.stimSourceParams[key] = {'type': 'NetStim', 'start': start, 'interval': interval, 'noise': noise,
