@@ -20,6 +20,7 @@ except:
 #########################################################################################
 netParams = specs.NetParams() # Object class NetParams to store network parameters
 
+
 ###############################################################################
 # Cell parameters
 ###############################################################################
@@ -27,7 +28,7 @@ netParams = specs.NetParams() # Object class NetParams to store network paramete
 #------------------------------------------------------------------------------
 # Load cell rules previously saved using netpyne format
 #------------------------------------------------------------------------------
-loadCellParams = False
+loadCellParams = True
 saveCellParams = False
 
 if loadCellParams:
@@ -72,6 +73,14 @@ netParams.popParams['PT5B'] =	{'cellType': 'PT5B_full', 'numCells': 1}
 
 
 ###############################################################################
+# Synaptic Mechanism parameters
+###############################################################################
+
+netParams.synMechParams['AMPA'] = {'mod':'MyExp2SynBB', 'tau1': 0.05, 'tau2': 5.3, 'e': 0}
+netParams.synMechParams['NMDA'] = {'mod': 'MyExp2SynNMDABB', 'tau1NMDA': 15, 'tau2NMDA': 150, 'e': 0}
+
+
+###############################################################################
 # Stimulation parameters
 ###############################################################################
 
@@ -83,10 +92,12 @@ if cfg.addIClamp:
         params = getattr(cfg, key, None)
         [pop, sec, loc, start, dur, amp] = [params[s] for s in ['pop', 'sec', 'loc', 'start', 'dur', 'amp']]
 
-        # cfg.analysis['plotTraces']['include'].append((pop,0))  # record that pop
-
         # add stim source
-        netParams.stimSourceParams[key] = {'type': 'IClamp', 'delay': start, 'dur': dur, 'amp': amp}
+        netParams.stimSourceParams[key] = {
+            'type': 'IClamp', 
+            'delay': start, 
+            'dur': dur, 
+            'amp': amp}
 
         # connect stim source to target
         netParams.stimTargetParams[key + '_' + pop] = {
@@ -107,14 +118,17 @@ if cfg.addNetStim:
               'weight', 'delay']]
 
         # add stim source
-        netParams.stimSourceParams[key] = {'type': 'NetStim', 'start': start, 'interval': interval, 'noise': noise,
-                                           'number': number}
+        netParams.stimSourceParams[key] = {
+            'type': 'NetStim', 
+            'start': start, 
+            'interval': interval, 
+            'noise': noise,
+            'number': number}
 
         # connect stim source to target
-        # for i, syn in enumerate(synMech):
         netParams.stimTargetParams[key + '_' + pop] = {
             'source': key,
-            'conds': {'pop': pop, 'ynorm': ynorm},
+            'conds': {'pop': pop},
             'sec': sec,
             'loc': loc,
             'synMech': synMech,
