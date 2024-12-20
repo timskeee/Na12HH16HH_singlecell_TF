@@ -112,7 +112,7 @@ if cfg.addIClamp:
 if cfg.addNetStim:
     for key in [k for k in dir(cfg) if k.startswith('NetStim')]:
         params = getattr(cfg, key, None)
-        [pop, ynorm, sec, loc, synMech, synMechWeightFactor, start, interval, noise, number, weight, delay] = \
+        [pop, sec, loc, synMech, synMechWeightFactor, start, interval, noise, number, weight, delay] = \
             [params[s] for s in
              ['pop', 'sec', 'loc', 'synMech', 'synMechWeightFactor', 'start', 'interval', 'noise', 'number',
               'weight', 'delay']]
