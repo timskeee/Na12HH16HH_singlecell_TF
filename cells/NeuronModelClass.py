@@ -11,7 +11,7 @@ from NrnHelper import *
 
 
 class NeuronModel:
-    def __init__(self,ais_nav16_fac, ais_nav12_fac, mod_dir = 'cells/Neuron_Model_12HMM16HH/',#'./Neuron_Model_12HH16HMM/',#'./Neuron_Model_HH/',
+    def __init__(self,ais_nav16_fac, ais_nav12_fac, mod_dir = 'cells/Neuron_Model_12HH16HH/',#'./Neuron_Model_12HH16HMM/',#'./Neuron_Model_HH/',
                       
                       update = None, ##TF If this is true, mechs are updated with update_mech_from_dict. Turn to false if you don't want update ### maybe not working???????
                       na12name = 'na12_HMM_TF100923',
@@ -325,7 +325,7 @@ class NeuronModel:
             
             update_mod_param(self,['na12','na12mut'],nav12)
             
-            h.load_file("/global/homes/t/tfenton/Neuron_general-2/Neuron_Model_12HMM16HH/printSh.hoc")
+            h.load_file("/global/homes/t/tfenton/Neuron_general-2/Neuron_Model_12HH16HH/printSh.hoc")
             h.printVals12HHWT()
 
             #Adding ability to update with new Na16 mechs ##TF021424
@@ -336,7 +336,7 @@ class NeuronModel:
             self.na16_p = update_mech_from_dict(self, p_fn_na16,self.na16wt_mech)
             print(eval("h.psection()"))
             ##TF030624 Can load file below and run h.printValsWT to debug if mod file is getting updated or not
-            h.load_file("/global/homes/t/tfenton/Neuron_general-2/Neuron_Model_12HMM16HH/printSh.hoc")
+            h.load_file("/global/homes/t/tfenton/Neuron_general-2/Neuron_Model_12HH16HH/printSh.hoc")
             h.printValsWT16()
             
             print(f'using na16mut_file params {na16mut_name}')
@@ -347,7 +347,7 @@ class NeuronModel:
 
 
             ##TF030624 Can load file below and run h.printValsWT to debug if mod file is getting updated or not
-            h.load_file("/global/homes/t/tfenton/Neuron_general-2/Neuron_Model_12HMM16HH/printSh.hoc")
+            h.load_file("/global/homes/t/tfenton/Neuron_general-2/Neuron_Model_12HH16HH/printSh.hoc")
             h.printValsMUT16()
             # print(h("topology()"))
 

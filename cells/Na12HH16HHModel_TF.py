@@ -136,7 +136,7 @@ class Na12Model_TF:
     #     # p_fn_na16 = f'{params_folder}{na16name}.txt'
     #     # p_fn_na16_mech = f'{params_folder}{na16mut_name}.txt' ##Would have to implement this in class args if want to make na16 muts
         
-    #     # h.load_file("/global/homes/t/tfenton/Neuron_general-2/Neuron_Model_12HMM16HH/printSh.hoc")
+    #     # h.load_file("/global/homes/t/tfenton/Neuron_general-2/Neuron_Model_12HH16HH/printSh.hoc")
     #     # h.printVals()
 
     #     # for sec in h.cell.axon:
