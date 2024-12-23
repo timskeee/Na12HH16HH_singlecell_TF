@@ -6,164 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="005d02eb-66f1-4331-93ff-fc6f8095df50" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/.libs/libnrnmech.so" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/.libs/libnrnmech.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/CaDynamics_E2.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/CaDynamics_E2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/CaDynamics_E2.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/CaDynamics_E2.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/Ca_HVA.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/Ca_HVA.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/Ca_HVA.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/Ca_HVA.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/Ca_LVAst.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/Ca_LVAst.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/Ca_LVAst.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/Ca_LVAst.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/HCN1.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/HCN1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/HCN1.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/HCN1.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/IC.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/IC.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/IC.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/IC.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/IKsin.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/IKsin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/IKsin.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/IKsin.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/Ih.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/Ih.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/Ih.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/Ih.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/Im.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/Im.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/Im.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/Im.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/K_Pst.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/K_Pst.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/K_Pst.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/K_Pst.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/K_Tst.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/K_Tst.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/K_Tst.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/K_Tst.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/MyExp2SynBB.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/MyExp2SynBB.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/MyExp2SynBB.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/MyExp2SynBB.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/MyExp2SynNMDABB.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/MyExp2SynNMDABB.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/MyExp2SynNMDABB.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/MyExp2SynNMDABB.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/Nca.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/Nca.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/Nca.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/Nca.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ProbAMPANMDA_EMS.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ProbAMPANMDA_EMS.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ProbAMPANMDA_EMS.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ProbAMPANMDA_EMS.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ProbGABAAB_EMS.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ProbGABAAB_EMS.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ProbGABAAB_EMS.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ProbGABAAB_EMS.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/SK_E2.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/SK_E2.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/SK_E2.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/SK_E2.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/SKv3_1.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/SKv3_1.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/SKv3_1.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/SKv3_1.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ar_traub.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ar_traub.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ar_traub.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ar_traub.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/branching.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/branching.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/branching.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/branching.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/cadad.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/cadad.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/cadad.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/cadad.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/cadyn.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/cadyn.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/cadyn.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/cadyn.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/cagk.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/cagk.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/cagk.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/cagk.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/cal_mh.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/cal_mh.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/cal_mh.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/cal_mh.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/cal_mig.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/cal_mig.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/cal_mig.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/cal_mig.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/can_mig.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/can_mig.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/can_mig.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/can_mig.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/cancr.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/cancr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/cancr.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/cancr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/canin.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/canin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/canin.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/canin.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/cat_mig.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/cat_mig.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/cat_mig.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/cat_mig.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/cat_traub.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/cat_traub.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/cat_traub.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/cat_traub.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/catcb.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/catcb.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/catcb.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/catcb.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ch_CavL.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ch_CavL.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ch_CavL.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ch_CavL.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ch_CavN.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ch_CavN.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ch_CavN.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ch_CavN.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ch_KCaS.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ch_KCaS.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ch_KCaS.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ch_KCaS.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ch_Kdrfastngf.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ch_Kdrfastngf.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ch_Kdrfastngf.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ch_Kdrfastngf.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ch_KvAngf.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ch_KvAngf.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ch_KvAngf.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ch_KvAngf.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ch_KvCaB.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ch_KvCaB.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ch_KvCaB.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ch_KvCaB.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ch_Navngf.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ch_Navngf.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ch_Navngf.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ch_Navngf.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ch_leak.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ch_leak.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ch_leak.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ch_leak.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/dipole.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/dipole.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/dipole.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/dipole.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/dipole_pp.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/dipole_pp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/dipole_pp.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/dipole_pp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/gabab.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/gabab.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/gabab.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/gabab.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/h_BS.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/h_BS.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/h_BS.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/h_BS.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/h_harnett.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/h_harnett.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/h_harnett.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/h_harnett.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/h_kole.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/h_kole.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/h_kole.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/h_kole.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/h_migliore.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/h_migliore.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/h_migliore.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/h_migliore.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/hin.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/hin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/hin.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/hin.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ican_sidi.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ican_sidi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ican_sidi.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ican_sidi.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/iccr.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/iccr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/iccr.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/iccr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/iconc_Ca.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/iconc_Ca.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/iconc_Ca.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/iconc_Ca.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ikscr.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ikscr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/ikscr.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/ikscr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kBK.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kBK.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kBK.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kBK.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kap_BS.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kap_BS.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kap_BS.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kap_BS.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kapcb.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kapcb.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kapcb.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kapcb.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kapin.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kapin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kapin.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kapin.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kca.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kca.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kca.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kca.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kctin.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kctin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kctin.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kctin.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kdmc_BS.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kdmc_BS.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kdmc_BS.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kdmc_BS.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kdr_BS.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kdr_BS.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kdr_BS.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kdr_BS.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kdrcr.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kdrcr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kdrcr.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kdrcr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kdrin.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kdrin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kdrin.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kdrin.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/km.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/km.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/km.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/km.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kv.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kv.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/kv.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/kv.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/libnrnmech.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/libnrnmech.dylib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/makemod2c_inc" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/makemod2c_inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/mod_func.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/mod_func.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/mod_func.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/mod_func.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/my_exp2syn.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/my_exp2syn.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/my_exp2syn.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/my_exp2syn.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/na12annaTFHH.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/na12annaTFHH.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/na12annaTFHH.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/na12annaTFHH.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/na12annaTFHHmut.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/na12annaTFHHmut.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/na12annaTFHHmut.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/na12annaTFHHmut.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/na16HH_TF.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/na16HH_TF.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/na16HH_TF.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/na16HH_TF.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/na16HHmut_TF_wtcopy.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/na16HHmut_TF_wtcopy.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/na16HHmut_TF_wtcopy.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/na16HHmut_TF_wtcopy.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/nafcr.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/nafcr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/nafcr.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/nafcr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/nafx.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/nafx.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/nafx.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/nafx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/nap_sidi.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/nap_sidi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/nap_sidi.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/nap_sidi.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/nax_BS.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/nax_BS.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/nax_BS.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/nax_BS.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/naz.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/naz.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/naz.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/naz.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/savedist.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/savedist.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/savedist.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/savedist.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/special" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/special" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/special.nrn" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/special.nrn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/vclmp_pl.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/vclmp_pl.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/vclmp_pl.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/vclmp_pl.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/vecstim.c" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/vecstim.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arm64/vecstim.o" beforeDir="false" afterPath="$PROJECT_DIR$/mod/arm64/vecstim.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cells/Na12HH16HH_TF.json" beforeDir="false" afterPath="$PROJECT_DIR$/cells/Na12HH16HH_TF.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cfg.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cfg.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/netParams.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/netParams.py" afterDir="false" />
     </list>
@@ -215,9 +57,9 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/mod" />
       <recent name="$PROJECT_DIR$/conn" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/cells" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -268,7 +110,7 @@
       <workItem from="1734626850659" duration="6654000" />
       <workItem from="1734650021069" duration="2905000" />
       <workItem from="1734710509732" duration="2257000" />
-      <workItem from="1734722739219" duration="7746000" />
+      <workItem from="1734722739219" duration="8043000" />
     </task>
     <servers />
   </component>
@@ -276,7 +118,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Na12HH16HH_singlecell$init.coverage" NAME="init Coverage Results" MODIFIED="1734978786886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Na12HH16HH_singlecell$init.coverage" NAME="init Coverage Results" MODIFIED="1734978950032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Na12HH16HH_singlecell$cfg.coverage" NAME="cfg Coverage Results" MODIFIED="1734623979775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Na12HH16HH_singlecell$netparams.coverage" NAME="netparams Coverage Results" MODIFIED="1734623022692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Na12HH16HH_singlecell$netParams.coverage" NAME="netParams Coverage Results" MODIFIED="1734710989577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
