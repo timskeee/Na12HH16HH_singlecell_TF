@@ -1801,7 +1801,10 @@
                 "childX": 0.0,
                 "parentSec": "soma",
                 "parentX": 0.5
-            }
+            },
+            "weightNorm": [
+                0.003378604128149684
+            ]
         },
         "apic_1": {
             "geom": {
@@ -2017,7 +2020,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_0",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003511282008224062
+            ]
         },
         "apic_10": {
             "geom": {
@@ -2455,7 +2461,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_8",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004249316495632049
+            ]
         },
         "apic_100": {
             "geom": {
@@ -2743,7 +2752,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_99",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_101": {
             "geom": {
@@ -2917,7 +2929,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_100",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_102": {
             "geom": {
@@ -3091,7 +3106,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_100",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_103": {
             "geom": {
@@ -3319,14 +3337,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_99",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_104": {
             "geom": {
                 "L": 5.053650051375381,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.9995521529705409,
+                "diam": 0.9995521529705407,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -3499,7 +3520,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_98",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_105": {
             "geom": {
@@ -3697,7 +3721,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_104",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_106": {
             "geom": {
@@ -3907,7 +3934,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_105",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_107": {
             "geom": {
@@ -4177,7 +4207,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_105",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_108": {
             "geom": {
@@ -4417,14 +4450,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_107",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_109": {
             "geom": {
                 "L": 10.001985659294517,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.3699999898672104,
+                "diam": 0.36999998986721044,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -4591,7 +4627,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_108",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_11": {
             "geom": {
@@ -5125,7 +5164,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_7",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004245864274774401
+            ]
         },
         "apic_110": {
             "geom": {
@@ -5299,14 +5341,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_108",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_111": {
             "geom": {
                 "L": 119.99995693216059,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.5175000394504807,
+                "diam": 0.5175000394504806,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -5539,7 +5584,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_107",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_112": {
             "geom": {
@@ -5767,7 +5815,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_104",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_113": {
             "geom": {
@@ -6145,7 +6196,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_17",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004141616593834676
+            ]
         },
         "apic_114": {
             "geom": {
@@ -6415,7 +6469,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_0",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0035034376086122807
+            ]
         },
         "apic_115": {
             "geom": {
@@ -6601,7 +6658,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_114",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003558862003184488
+            ]
         },
         "apic_116": {
             "geom": {
@@ -6781,7 +6841,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_115",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003569460337519322
+            ]
         },
         "apic_117": {
             "geom": {
@@ -7009,14 +7072,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_116",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0035990714962997688
+            ]
         },
         "apic_118": {
             "geom": {
                 "L": 124.65262767815562,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.693204421872129,
+                "diam": 0.6932044218721292,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -7333,7 +7399,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_117",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0038484067726995597
+            ]
         },
         "apic_119": {
             "geom": {
@@ -7651,7 +7720,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_117",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003874372386276192
+            ]
         },
         "apic_12": {
             "geom": {
@@ -8029,7 +8101,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_6",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003996508019182403
+            ]
         },
         "apic_120": {
             "geom": {
@@ -8629,14 +8704,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_116",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0037513256920805203
+            ]
         },
         "apic_121": {
             "geom": {
                 "L": 143.70416529582164,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.9138241947175526,
+                "diam": 0.9138241947175528,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -9211,7 +9289,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_115",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003721182462233346
+            ]
         },
         "apic_122": {
             "geom": {
@@ -9667,14 +9748,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_114",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0036406536958182405
+            ]
         },
         "apic_13": {
             "geom": {
                 "L": 45.45028641074642,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.6990436814533854,
+                "diam": 0.6990436814533855,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -9967,7 +10051,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_12",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004189451984888135
+            ]
         },
         "apic_14": {
             "geom": {
@@ -10153,7 +10240,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_12",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0041033839111701996
+            ]
         },
         "apic_15": {
             "geom": {
@@ -10609,7 +10699,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_14",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.00427224513856191
+            ]
         },
         "apic_16": {
             "geom": {
@@ -10891,7 +10984,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_14",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004183729632882067
+            ]
         },
         "apic_17": {
             "geom": {
@@ -11101,7 +11197,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_5",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003912861552890829
+            ]
         },
         "apic_18": {
             "geom": {
@@ -11335,7 +11434,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_17",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004178516557680286
+            ]
         },
         "apic_19": {
             "geom": {
@@ -11521,14 +11623,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_18",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004368416945415661
+            ]
         },
         "apic_2": {
             "geom": {
                 "L": 195.6099801141895,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.8023263947932109,
+                "diam": 0.8023263947932111,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -12145,7 +12250,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_1",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0038304713473462223
+            ]
         },
         "apic_20": {
             "geom": {
@@ -12319,7 +12427,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_19",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.00439215971180695
+            ]
         },
         "apic_21": {
             "geom": {
@@ -12565,7 +12676,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_20",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004467906910496407
+            ]
         },
         "apic_22": {
             "geom": {
@@ -13087,7 +13201,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_21",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004813256381700583
+            ]
         },
         "apic_23": {
             "geom": {
@@ -13579,7 +13696,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_21",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004798176413002583
+            ]
         },
         "apic_24": {
             "geom": {
@@ -13789,14 +13909,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_20",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0044230433285982855
+            ]
         },
         "apic_25": {
             "geom": {
                 "L": 129.3556559720771,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.8580708239601514,
+                "diam": 0.8580708239601516,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -14269,7 +14392,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_24",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004637351997054126
+            ]
         },
         "apic_26": {
             "geom": {
@@ -14725,7 +14851,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_24",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004670951898757952
+            ]
         },
         "apic_27": {
             "geom": {
@@ -14971,7 +15100,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_19",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004429928798747269
+            ]
         },
         "apic_28": {
             "geom": {
@@ -15451,7 +15583,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_27",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004643473197203184
+            ]
         },
         "apic_29": {
             "geom": {
@@ -16027,14 +16162,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_27",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004641606534373333
+            ]
         },
         "apic_3": {
             "geom": {
                 "L": 16.06042523014099,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 2.5557677310265574,
+                "diam": 2.555767731026558,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -16231,7 +16369,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_1",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003647323107972039
+            ]
         },
         "apic_30": {
             "geom": {
@@ -16441,7 +16582,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_18",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004459636368798143
+            ]
         },
         "apic_31": {
             "geom": {
@@ -16657,14 +16801,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_30",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004635046685077788
+            ]
         },
         "apic_32": {
             "geom": {
                 "L": 104.68826077126607,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.6878131689089602,
+                "diam": 0.6878131689089603,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -16987,7 +17134,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_31",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004858265386128981
+            ]
         },
         "apic_33": {
             "geom": {
@@ -17419,7 +17569,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_31",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004919149850998563
+            ]
         },
         "apic_34": {
             "geom": {
@@ -17629,7 +17782,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_30",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004723546181097785
+            ]
         },
         "apic_35": {
             "geom": {
@@ -18187,7 +18343,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_34",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.005107986119508703
+            ]
         },
         "apic_36": {
             "geom": {
@@ -18409,14 +18568,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_34",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004980268397978229
+            ]
         },
         "apic_37": {
             "geom": {
                 "L": 140.49648638965158,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.812000363405232,
+                "diam": 0.8120003634052321,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -18979,14 +19141,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_36",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.005470740593968806
+            ]
         },
         "apic_38": {
             "geom": {
                 "L": 3.1773026908605297,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 1.830000042915344,
+                "diam": 1.8300000429153442,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -19159,14 +19324,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_36",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.005157824875996094
+            ]
         },
         "apic_39": {
             "geom": {
                 "L": 131.4447616200034,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.7015096746913669,
+                "diam": 0.7015096746913667,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -19717,7 +19885,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_38",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0055676842537394355
+            ]
         },
         "apic_4": {
             "geom": {
@@ -20563,7 +20734,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_3",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004030883316958403
+            ]
         },
         "apic_40": {
             "geom": {
@@ -20743,7 +20917,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_38",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.005227367360583095
+            ]
         },
         "apic_41": {
             "geom": {
@@ -20959,14 +21136,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_40",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.005300423649879214
+            ]
         },
         "apic_42": {
             "geom": {
                 "L": 16.153714336328033,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.7202404252153727,
+                "diam": 0.7202404252153726,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -21169,7 +21349,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_41",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0053865427418437455
+            ]
         },
         "apic_43": {
             "geom": {
@@ -21415,7 +21598,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_42",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.005960566049734474
+            ]
         },
         "apic_44": {
             "geom": {
@@ -21607,7 +21793,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_43",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.006519390260426311
+            ]
         },
         "apic_45": {
             "geom": {
@@ -21799,7 +21988,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_43",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.006519390607405304
+            ]
         },
         "apic_46": {
             "geom": {
@@ -22081,7 +22273,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_42",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.006209309735907043
+            ]
         },
         "apic_47": {
             "geom": {
@@ -22315,7 +22510,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_41",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.005786681845451178
+            ]
         },
         "apic_48": {
             "geom": {
@@ -22507,7 +22705,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_47",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.006733936345168931
+            ]
         },
         "apic_49": {
             "geom": {
@@ -22723,7 +22924,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_48",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.005813207615431955
+            ]
         },
         "apic_5": {
             "geom": {
@@ -22921,7 +23125,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_3",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0037664233049337402
+            ]
         },
         "apic_50": {
             "geom": {
@@ -23137,14 +23344,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_48",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0058132105113284085
+            ]
         },
         "apic_51": {
             "geom": {
                 "L": 100.00025693238544,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.23000000417232508,
+                "diam": 0.23000000417232505,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -23365,14 +23575,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_47",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.006493669126909881
+            ]
         },
         "apic_52": {
             "geom": {
                 "L": 9.765402787970773,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 1.8300000429153442,
+                "diam": 1.8300000429153445,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -23551,14 +23764,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_40",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.00533365406237273
+            ]
         },
         "apic_53": {
             "geom": {
                 "L": 119.61055653708695,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.819324724075697,
+                "diam": 0.8193247240756968,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -24073,7 +24289,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_52",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.00561768641781064
+            ]
         },
         "apic_54": {
             "geom": {
@@ -24289,7 +24508,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_52",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.005550941841338237
+            ]
         },
         "apic_55": {
             "geom": {
@@ -24571,7 +24793,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_54",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.005809545744105148
+            ]
         },
         "apic_56": {
             "geom": {
@@ -24787,7 +25012,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_55",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.005993825219040542
+            ]
         },
         "apic_57": {
             "geom": {
@@ -24867,7 +25095,7 @@
             },
             "mechs": {
                 "Ih": {
-                    "gIhbar": 0.0006908759886980725
+                    "gIhbar": 0.0006908759886980726
                 },
                 "Im": {
                     "gImbar": 0.000143
@@ -25003,7 +25231,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_56",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.006602645040382877
+            ]
         },
         "apic_58": {
             "geom": {
@@ -25213,7 +25444,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_56",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.00656463501059829
+            ]
         },
         "apic_59": {
             "geom": {
@@ -25429,14 +25663,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_55",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.006008916074013876
+            ]
         },
         "apic_6": {
             "geom": {
                 "L": 13.272358005458488,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 1.1281975087941134,
+                "diam": 1.1281975087941136,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -25627,7 +25864,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_5",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0038525975060696447
+            ]
         },
         "apic_60": {
             "geom": {
@@ -25849,14 +26089,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_59",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0063886553868315425
+            ]
         },
         "apic_61": {
             "geom": {
                 "L": 39.99934060213297,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.6899999976158143,
+                "diam": 0.6899999976158142,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -26041,14 +26284,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_59",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.006238455453106706
+            ]
         },
         "apic_62": {
             "geom": {
                 "L": 40.00058310102156,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.6899999976158143,
+                "diam": 0.6899999976158141,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -26233,14 +26479,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_61",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.006485664758091354
+            ]
         },
         "apic_63": {
             "geom": {
                 "L": 40.00059830316293,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.6899999976158142,
+                "diam": 0.6899999976158141,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -26425,14 +26674,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_61",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.006485664724738098
+            ]
         },
         "apic_64": {
             "geom": {
                 "L": 20.57421443477377,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 1.878991779613556,
+                "diam": 1.8789917796135556,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -26623,14 +26875,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_54",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.005837428145596704
+            ]
         },
         "apic_65": {
             "geom": {
                 "L": 108.78863474245651,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.6191176872662968,
+                "diam": 0.6191176872662969,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -26953,7 +27208,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_64",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.006386660070346627
+            ]
         },
         "apic_66": {
             "geom": {
@@ -27595,7 +27853,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_64",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0076994777439784775
+            ]
         },
         "apic_67": {
             "geom": {
@@ -27781,7 +28042,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_66",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.010589724702820064
+            ]
         },
         "apic_68": {
             "geom": {
@@ -28735,7 +28999,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_67",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013051119093356024
+            ]
         },
         "apic_69": {
             "geom": {
@@ -28927,7 +29194,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_67",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.011055546264616958
+            ]
         },
         "apic_7": {
             "geom": {
@@ -29155,14 +29425,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_6",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003945925778914104
+            ]
         },
         "apic_70": {
             "geom": {
                 "L": 24.476863426983755,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.948296772806566,
+                "diam": 0.9482967728065662,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -29377,14 +29650,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_69",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.011656017458168173
+            ]
         },
         "apic_71": {
             "geom": {
                 "L": 139.62291135435555,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.9200000166893012,
+                "diam": 0.9200000166893013,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -29869,7 +30145,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_70",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0132736999630655
+            ]
         },
         "apic_72": {
             "geom": {
@@ -30055,7 +30334,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_71",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_73": {
             "geom": {
@@ -30349,7 +30631,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_72",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_74": {
             "geom": {
@@ -30613,14 +30898,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_72",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_75": {
             "geom": {
                 "L": 80.7563696869738,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.6925378028827665,
+                "diam": 0.6925378028827666,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -30853,14 +31141,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_71",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_76": {
             "geom": {
                 "L": 357.99865915644983,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.8686977543525486,
+                "diam": 0.8686977543525487,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -31759,7 +32050,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_70",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_77": {
             "geom": {
@@ -31951,7 +32245,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_69",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.011533938787005722
+            ]
         },
         "apic_78": {
             "geom": {
@@ -32551,7 +32848,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_77",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_79": {
             "geom": {
@@ -33469,14 +33769,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_78",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_8": {
             "geom": {
                 "L": 14.528144325404922,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.815769290878557,
+                "diam": 0.8157692908785568,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -33685,7 +33988,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_7",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004035296756129068
+            ]
         },
         "apic_80": {
             "geom": {
@@ -34075,7 +34381,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_78",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_81": {
             "geom": {
@@ -34681,14 +34990,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_80",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_82": {
             "geom": {
                 "L": 217.5928152325667,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.552344533405916,
+                "diam": 0.5523445334059162,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -35221,14 +35533,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_80",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_83": {
             "geom": {
                 "L": 97.58256138368698,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 1.0625580904876955,
+                "diam": 1.0625580904876957,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -35545,7 +35860,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_77",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.01327083449932848
+            ]
         },
         "apic_84": {
             "geom": {
@@ -35743,14 +36061,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_83",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_85": {
             "geom": {
                 "L": 41.96780827086054,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.9200000166893005,
+                "diam": 0.9200000166893006,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -36019,7 +36340,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_84",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_86": {
             "geom": {
@@ -36997,7 +37321,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_85",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_87": {
             "geom": {
@@ -37879,7 +38206,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_85",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_88": {
             "geom": {
@@ -38077,7 +38407,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_87",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_89": {
             "geom": {
@@ -38287,14 +38620,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_88",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_9": {
             "geom": {
                 "L": 129.58862794503474,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.6327747315265161,
+                "diam": 0.6327747315265162,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -38815,7 +39151,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_8",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004313628508843878
+            ]
         },
         "apic_90": {
             "geom": {
@@ -39001,7 +39340,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_88",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_91": {
             "geom": {
@@ -39325,14 +39667,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_87",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_92": {
             "geom": {
                 "L": 276.57767156383596,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.9200000166893,
+                "diam": 0.9200000166892999,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -40255,7 +40600,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_84",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_93": {
             "geom": {
@@ -40597,14 +40945,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_92",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_94": {
             "geom": {
                 "L": 110.40838363662289,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.8984239494353689,
+                "diam": 0.8984239494353691,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -41047,14 +41398,17 @@
                 "childX": 0.0,
                 "parentSec": "apic_92",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_95": {
             "geom": {
                 "L": 291.9029955820578,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.9218148512515907,
+                "diam": 0.9218148512515905,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -41797,7 +42151,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_83",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_96": {
             "geom": {
@@ -42049,7 +42406,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_95",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_97": {
             "geom": {
@@ -42241,7 +42601,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_95",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "apic_98": {
             "geom": {
@@ -42823,7 +43186,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_66",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.011896968890754887
+            ]
         },
         "apic_99": {
             "geom": {
@@ -43045,7 +43411,10 @@
                 "childX": 0.0,
                 "parentSec": "apic_98",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "axon_0": {
             "geom": {
@@ -43084,10 +43453,10 @@
                         0.00010125926,
                         0.00010125926,
                         0.00010125926,
-                        0.00010125926000000002,
-                        0.00010125926000000002,
                         0.00010125926,
-                        0.00010125926000000002,
+                        0.00010125926,
+                        0.00010125926,
+                        0.00010125926,
                         0.00010125926,
                         0.00010125926,
                         0.00010125926,
@@ -43160,19 +43529,19 @@
                         0.0009423347,
                         0.0009423347,
                         0.0009423347,
-                        0.0009423347,
+                        0.0009423347000000001,
                         0.0009423347,
                         0.0009423347,
                         0.0009423347,
                         0.0009423347,
                         0.0009423347,
                         9.423347e-05,
-                        9.423346999999998e-05,
-                        9.423347e-05,
-                        9.423347000000001e-05,
                         9.423347e-05,
                         9.423347e-05,
-                        9.423346999999998e-05,
+                        9.423347e-05,
+                        9.423347e-05,
+                        9.423347e-05,
+                        9.423347e-05,
                         9.423347e-05,
                         9.423347e-05
                     ]
@@ -43183,12 +43552,12 @@
                         1.8836866440000002,
                         1.8836866440000002,
                         1.8836866440000002,
-                        1.8836866440000004,
                         1.8836866440000002,
                         1.8836866440000002,
                         1.8836866440000002,
-                        1.8836866440000004,
-                        1.8836866440000004,
+                        1.8836866440000002,
+                        1.8836866440000002,
+                        1.8836866440000002,
                         0.18836866440000002,
                         0.18836866440000002,
                         0.18836866440000002,
@@ -43217,7 +43586,7 @@
                         0.5,
                         0.4583333333333333,
                         0.37499999999999994,
-                        0.29781638541666666,
+                        0.2978163854166666,
                         0.2267824895833333,
                         0.15574859374999997,
                         0.08471469791666664,
@@ -43266,7 +43635,7 @@
                         0.5,
                         0.4583333333333333,
                         0.37499999999999994,
-                        0.29781638541666666,
+                        0.2978163854166666,
                         0.2267824895833333,
                         0.15574859374999997,
                         0.08471469791666664,
@@ -43318,11 +43687,11 @@
                         0.5,
                         0.5,
                         0.4166666666666666,
-                        0.19126554166666648,
+                        0.1912655416666665,
                         0.04919775,
                         0.04919775,
                         0.04919775,
-                        0.04919775,
+                        0.049197750000000005,
                         0.04919775,
                         0.04919775,
                         0.04919775,
@@ -43367,11 +43736,11 @@
                         0.5,
                         0.5,
                         0.4166666666666666,
-                        0.19126554166666648,
+                        0.1912655416666665,
                         0.04919775,
                         0.04919775,
                         0.04919775,
-                        0.04919775,
+                        0.049197750000000005,
                         0.04919775,
                         0.04919775,
                         0.04919775,
@@ -43404,7 +43773,7 @@
                     "g": [
                         1.34e-06,
                         1.34e-06,
-                        1.3399999999999999e-05,
+                        1.34e-05,
                         1.34e-05,
                         1.34e-05,
                         1.34e-05,
@@ -43474,7 +43843,7 @@
                     "gK_Pstbar": [
                         0.43260124,
                         0.043260124,
-                        0.04326012399999999,
+                        0.043260124,
                         0.043260124,
                         0.043260124,
                         0.043260124,
@@ -43487,8 +43856,8 @@
                 },
                 "K_Tst": {
                     "gK_Tstbar": [
-                        1.38801,
-                        0.13880099999999998,
+                        1.3880099999999997,
+                        0.138801,
                         0.138801,
                         0.138801,
                         0.138801,
@@ -43510,10 +43879,10 @@
                     "gSKv3_1bar": [
                         1.883686644,
                         0.303472,
-                        0.30347199999999996,
                         0.303472,
                         0.303472,
-                        0.3034720000000001,
+                        0.303472,
+                        0.303472,
                         0.303472,
                         0.303472,
                         0.303472,
@@ -43595,7 +43964,7 @@
                         0.04919775,
                         0.04919775,
                         0.04919775,
-                        0.04919775,
+                        0.049197750000000005,
                         0.04919775,
                         0.04919775,
                         0.04919775,
@@ -43636,7 +44005,7 @@
                         0.04919775,
                         0.04919775,
                         0.04919775,
-                        0.04919775,
+                        0.049197750000000005,
                         0.04919775,
                         0.04919775,
                         0.04919775,
@@ -43668,7 +44037,7 @@
                     "e": -100.0,
                     "g": [
                         1.34e-06,
-                        1.3399999999999999e-05,
+                        1.34e-05,
                         1.34e-05,
                         1.34e-05,
                         1.34e-05,
@@ -43692,7 +44061,7 @@
                 "L": 79.14288671935086,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.9200000166893006,
+                "diam": 0.9200000166893005,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -43968,7 +44337,10 @@
                 "childX": 0.0,
                 "parentSec": "soma",
                 "parentX": 0.5
-            }
+            },
+            "weightNorm": [
+                0.003421747706813699
+            ]
         },
         "dend_1": {
             "geom": {
@@ -44173,14 +44545,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_0",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0035544686605887216
+            ]
         },
         "dend_10": {
             "geom": {
                 "L": 23.39590650048397,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 1.3799999952316284,
+                "diam": 1.3799999952316286,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -44258,7 +44633,10 @@
                 "childX": 0.0,
                 "parentSec": "soma",
                 "parentX": 0.5
-            }
+            },
+            "weightNorm": [
+                0.003355269535428803
+            ]
         },
         "dend_100": {
             "geom": {
@@ -44409,7 +44787,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_93",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0034546778469857153
+            ]
         },
         "dend_101": {
             "geom": {
@@ -44620,14 +45001,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_100",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0035640950234785856
+            ]
         },
         "dend_102": {
             "geom": {
                 "L": 148.97234997066602,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.729464153625647,
+                "diam": 0.7294641536256469,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -45437,7 +45821,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_101",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0037496385320903553
+            ]
         },
         "dend_103": {
             "geom": {
@@ -45474,7 +45861,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_101",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0036218697313795825
+            ]
         },
         "dend_104": {
             "geom": {
@@ -45511,14 +45901,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_100",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0034846771814479108
+            ]
         },
         "dend_105": {
             "geom": {
                 "L": 49.654734069465775,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.8467505694642777,
+                "diam": 0.8467505694642776,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -45818,7 +46211,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_104",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003945266889320001
+            ]
         },
         "dend_106": {
             "geom": {
@@ -45861,7 +46257,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_105",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003990795847859164
+            ]
         },
         "dend_107": {
             "geom": {
@@ -46192,7 +46591,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_105",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004114672665222477
+            ]
         },
         "dend_108": {
             "geom": {
@@ -46319,7 +46721,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_104",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0034983697687503176
+            ]
         },
         "dend_109": {
             "geom": {
@@ -46842,7 +47247,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_108",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004100934126637487
+            ]
         },
         "dend_11": {
             "geom": {
@@ -47311,14 +47719,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_10",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0035391563463954548
+            ]
         },
         "dend_110": {
             "geom": {
                 "L": 45.08839102603755,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.6833668767236144,
+                "diam": 0.6833668767236143,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -47642,7 +48053,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_108",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0035820913690059316
+            ]
         },
         "dend_111": {
             "geom": {
@@ -48039,7 +48453,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_110",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004848106111948098
+            ]
         },
         "dend_112": {
             "geom": {
@@ -48376,7 +48793,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_110",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004851530725798057
+            ]
         },
         "dend_12": {
             "geom": {
@@ -48431,7 +48851,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_10",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003383285125235479
+            ]
         },
         "dend_13": {
             "geom": {
@@ -48486,14 +48909,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_12",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003409290995908199
+            ]
         },
         "dend_14": {
             "geom": {
                 "L": 186.85194435885458,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.7164839895033155,
+                "diam": 0.7164839895033157,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -48727,7 +49153,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_13",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003678893284796338
+            ]
         },
         "dend_15": {
             "geom": {
@@ -48932,7 +49361,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_13",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003525571820052633
+            ]
         },
         "dend_16": {
             "geom": {
@@ -49185,7 +49617,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_12",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003560815907766296
+            ]
         },
         "dend_17": {
             "geom": {
@@ -49288,14 +49723,17 @@
                 "childX": 0.0,
                 "parentSec": "soma",
                 "parentX": 0.5
-            }
+            },
+            "weightNorm": [
+                0.003354344739535084
+            ]
         },
         "dend_18": {
             "geom": {
                 "L": 32.35403177479778,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.958778741210122,
+                "diam": 0.9587787412101219,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -49475,7 +49913,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_17",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0034508788365118907
+            ]
         },
         "dend_19": {
             "geom": {
@@ -49560,7 +50001,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_18",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003527784960487818
+            ]
         },
         "dend_2": {
             "geom": {
@@ -49789,14 +50233,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_0",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003576743796482965
+            ]
         },
         "dend_20": {
             "geom": {
                 "L": 36.15717082388512,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.9200000166893008,
+                "diam": 0.9200000166893005,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -49916,7 +50363,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_19",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0035833576082688985
+            ]
         },
         "dend_21": {
             "geom": {
@@ -50355,7 +50805,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_20",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003714111062567379
+            ]
         },
         "dend_22": {
             "geom": {
@@ -50692,7 +51145,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_20",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0037093740444925694
+            ]
         },
         "dend_23": {
             "geom": {
@@ -50885,7 +51341,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_19",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0035864159755559714
+            ]
         },
         "dend_24": {
             "geom": {
@@ -51042,14 +51501,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_23",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0037133892737264205
+            ]
         },
         "dend_25": {
             "geom": {
                 "L": 101.06057602013561,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.6923175587706532,
+                "diam": 0.6923175587706529,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -51415,7 +51877,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_23",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.00377920079469554
+            ]
         },
         "dend_26": {
             "geom": {
@@ -51524,7 +51989,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_18",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003532106647385734
+            ]
         },
         "dend_27": {
             "geom": {
@@ -51669,14 +52137,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_26",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003726343499063775
+            ]
         },
         "dend_28": {
             "geom": {
                 "L": 46.85291283492923,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.6989921910002033,
+                "diam": 0.6989921910002032,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -51814,14 +52285,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_26",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003640978460737778
+            ]
         },
         "dend_29": {
             "geom": {
                 "L": 25.71133052511501,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.9605281097691484,
+                "diam": 0.9605281097691483,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -51905,7 +52379,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_17",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003409947353638093
+            ]
         },
         "dend_3": {
             "geom": {
@@ -51990,7 +52467,10 @@
                 "childX": 0.0,
                 "parentSec": "soma",
                 "parentX": 0.5
-            }
+            },
+            "weightNorm": [
+                0.003341049005002942
+            ]
         },
         "dend_30": {
             "geom": {
@@ -52207,7 +52687,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_29",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0035541699873092186
+            ]
         },
         "dend_31": {
             "geom": {
@@ -52616,7 +53099,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_29",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003677135497770669
+            ]
         },
         "dend_32": {
             "geom": {
@@ -52695,14 +53181,17 @@
                 "childX": 0.0,
                 "parentSec": "soma",
                 "parentX": 0.5
-            }
+            },
+            "weightNorm": [
+                0.003474372390335189
+            ]
         },
         "dend_33": {
             "geom": {
                 "L": 17.316776641447056,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 1.149999976158142,
+                "diam": 1.1499999761581423,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -52762,7 +53251,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_32",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.00361300605594447
+            ]
         },
         "dend_34": {
             "geom": {
@@ -52811,14 +53303,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_33",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003662729340722263
+            ]
         },
         "dend_35": {
             "geom": {
                 "L": 5.84345793023008,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.9720728967334922,
+                "diam": 0.9720728967334923,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -52860,7 +53355,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_34",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0036806440372831512
+            ]
         },
         "dend_36": {
             "geom": {
@@ -53275,7 +53773,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_35",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0038830587819123946
+            ]
         },
         "dend_37": {
             "geom": {
@@ -53798,7 +54299,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_35",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0039268410161442295
+            ]
         },
         "dend_38": {
             "geom": {
@@ -53835,7 +54339,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_34",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003680596136476872
+            ]
         },
         "dend_39": {
             "geom": {
@@ -54100,14 +54607,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_38",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0037483079820483495
+            ]
         },
         "dend_4": {
             "geom": {
                 "L": 32.18126091914229,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.8362669357887174,
+                "diam": 0.8362669357887172,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -54197,7 +54707,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_3",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0033771915399701917
+            ]
         },
         "dend_40": {
             "geom": {
@@ -54234,7 +54747,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_39",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003799601630402444
+            ]
         },
         "dend_41": {
             "geom": {
@@ -54961,7 +55477,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_40",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004037310428685029
+            ]
         },
         "dend_42": {
             "geom": {
@@ -55064,7 +55583,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_40",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0038349002873272952
+            ]
         },
         "dend_43": {
             "geom": {
@@ -55509,7 +56031,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_42",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004038530955940103
+            ]
         },
         "dend_44": {
             "geom": {
@@ -55810,7 +56335,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_42",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003980133795365035
+            ]
         },
         "dend_45": {
             "geom": {
@@ -56237,7 +56765,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_39",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003961940901720908
+            ]
         },
         "dend_46": {
             "geom": {
@@ -56364,7 +56895,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_38",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003725972960064024
+            ]
         },
         "dend_47": {
             "geom": {
@@ -57127,7 +57661,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_46",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003907006081038695
+            ]
         },
         "dend_48": {
             "geom": {
@@ -57230,7 +57767,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_46",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0037814950912777295
+            ]
         },
         "dend_49": {
             "geom": {
@@ -57933,14 +58473,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_48",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003990493815747214
+            ]
         },
         "dend_5": {
             "geom": {
                 "L": 49.999955879040954,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.10899999237859966,
+                "diam": 0.1089999923785997,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -57994,7 +58537,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_4",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.00316068392938106
+            ]
         },
         "dend_50": {
             "geom": {
@@ -58619,7 +59165,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_48",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003960074605321428
+            ]
         },
         "dend_51": {
             "geom": {
@@ -58692,14 +59241,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_33",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003666479060999183
+            ]
         },
         "dend_52": {
             "geom": {
                 "L": 10.88789727208393,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.9200000166893008,
+                "diam": 0.9200000166893005,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -58753,7 +59305,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_51",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0036969821843312435
+            ]
         },
         "dend_53": {
             "geom": {
@@ -59660,14 +60215,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_52",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0038903488865821094
+            ]
         },
         "dend_54": {
             "geom": {
                 "L": 114.95456279229671,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.6922427242172493,
+                "diam": 0.6922427242172494,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -60033,7 +60591,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_52",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0039034806503812796
+            ]
         },
         "dend_55": {
             "geom": {
@@ -61066,7 +61627,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_51",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003872547848672043
+            ]
         },
         "dend_56": {
             "geom": {
@@ -61901,7 +62465,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_32",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0037420703977348643
+            ]
         },
         "dend_57": {
             "geom": {
@@ -61950,14 +62517,17 @@
                 "childX": 0.0,
                 "parentSec": "soma",
                 "parentX": 0.5
-            }
+            },
+            "weightNorm": [
+                0.0033370342214446374
+            ]
         },
         "dend_58": {
             "geom": {
                 "L": 98.65958094387913,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.9254630255119023,
+                "diam": 0.9254630255119025,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -62119,7 +62689,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_57",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003440426944141832
+            ]
         },
         "dend_59": {
             "geom": {
@@ -62318,7 +62891,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_57",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0035210293331959515
+            ]
         },
         "dend_6": {
             "geom": {
@@ -62403,7 +62979,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_4",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003022963958739829
+            ]
         },
         "dend_60": {
             "geom": {
@@ -62530,7 +63109,10 @@
                 "childX": 0.0,
                 "parentSec": "soma",
                 "parentX": 0.5
-            }
+            },
+            "weightNorm": [
+                0.0033680840214206976
+            ]
         },
         "dend_61": {
             "geom": {
@@ -62765,7 +63347,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_60",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0034750177723126643
+            ]
         },
         "dend_62": {
             "geom": {
@@ -62928,14 +63513,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_60",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0034767420537349823
+            ]
         },
         "dend_63": {
             "geom": {
                 "L": 34.90866272152269,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 1.149999976158142,
+                "diam": 1.1499999761581419,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -63019,7 +63607,10 @@
                 "childX": 0.0,
                 "parentSec": "soma",
                 "parentX": 0.5
-            }
+            },
+            "weightNorm": [
+                0.0033609691354769284
+            ]
         },
         "dend_64": {
             "geom": {
@@ -63134,7 +63725,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_63",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0034072625099706246
+            ]
         },
         "dend_65": {
             "geom": {
@@ -63477,14 +64071,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_64",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0035041052802813255
+            ]
         },
         "dend_66": {
             "geom": {
                 "L": 37.98393979423694,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.698336893430999,
+                "diam": 0.6983368934309989,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -63664,7 +64261,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_64",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0034959925832952076
+            ]
         },
         "dend_67": {
             "geom": {
@@ -64163,14 +64763,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_63",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003512799809756713
+            ]
         },
         "dend_68": {
             "geom": {
                 "L": 27.855654652494078,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 1.3214655591788527,
+                "diam": 1.3214655591788524,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -64320,7 +64923,10 @@
                 "childX": 0.0,
                 "parentSec": "soma",
                 "parentX": 0.5
-            }
+            },
+            "weightNorm": [
+                0.003372560867636626
+            ]
         },
         "dend_69": {
             "geom": {
@@ -64519,7 +65125,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_68",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0034568109065551684
+            ]
         },
         "dend_7": {
             "geom": {
@@ -64616,7 +65225,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_3",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0033699803659354125
+            ]
         },
         "dend_70": {
             "geom": {
@@ -64941,14 +65553,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_69",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003628526935404471
+            ]
         },
         "dend_71": {
             "geom": {
                 "L": 145.59027791126078,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.5832756742460988,
+                "diam": 0.5832756742460989,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -65638,7 +66253,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_69",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004239655585345189
+            ]
         },
         "dend_72": {
             "geom": {
@@ -66773,7 +67391,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_68",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0037040065917212346
+            ]
         },
         "dend_73": {
             "geom": {
@@ -66876,7 +67497,10 @@
                 "childX": 0.0,
                 "parentSec": "soma",
                 "parentX": 0.5
-            }
+            },
+            "weightNorm": [
+                0.0033558554805695096
+            ]
         },
         "dend_74": {
             "geom": {
@@ -67039,7 +67663,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_73",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0034176646227967547
+            ]
         },
         "dend_75": {
             "geom": {
@@ -67232,7 +67859,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_74",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003476196698233873
+            ]
         },
         "dend_76": {
             "geom": {
@@ -67923,14 +68553,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_75",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0036411096967475754
+            ]
         },
         "dend_77": {
             "geom": {
                 "L": 12.684670617757922,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.9826186148178434,
+                "diam": 0.9826186148178435,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -68020,7 +68653,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_75",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0035185407886142916
+            ]
         },
         "dend_78": {
             "geom": {
@@ -68609,7 +69245,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_77",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0036524170419317725
+            ]
         },
         "dend_79": {
             "geom": {
@@ -68646,7 +69285,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_77",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0035375431504779085
+            ]
         },
         "dend_8": {
             "geom": {
@@ -68785,14 +69427,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_7",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0035334020432443995
+            ]
         },
         "dend_80": {
             "geom": {
                 "L": 5.460754092501343,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 1.1268903293231782,
+                "diam": 1.1268903293231785,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -68828,7 +69473,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_74",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003455578542931632
+            ]
         },
         "dend_81": {
             "geom": {
@@ -69303,7 +69951,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_80",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0036550663290354545
+            ]
         },
         "dend_82": {
             "geom": {
@@ -69700,7 +70351,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_80",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0035345235063502364
+            ]
         },
         "dend_83": {
             "geom": {
@@ -69929,7 +70583,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_82",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003605649803923791
+            ]
         },
         "dend_84": {
             "geom": {
@@ -69990,14 +70647,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_83",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0036955958533192
+            ]
         },
         "dend_85": {
             "geom": {
                 "L": 62.71919861457218,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.5238597846067132,
+                "diam": 0.5238597846067133,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -70135,7 +70795,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_83",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003835480872180321
+            ]
         },
         "dend_86": {
             "geom": {
@@ -70778,14 +71441,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_82",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003834378700026061
+            ]
         },
         "dend_87": {
             "geom": {
                 "L": 13.390222169423774,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 1.62003515519978,
+                "diam": 1.6200351551997803,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -70857,7 +71523,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_73",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0033832401149318735
+            ]
         },
         "dend_88": {
             "geom": {
@@ -71266,7 +71935,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_87",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003464048277819765
+            ]
         },
         "dend_89": {
             "geom": {
@@ -71369,14 +72041,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_88",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003929906990702304
+            ]
         },
         "dend_9": {
             "geom": {
                 "L": 164.1131276652857,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.7168564799106054,
+                "diam": 0.7168564799106056,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -71562,7 +72237,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_7",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0036233542856642146
+            ]
         },
         "dend_90": {
             "geom": {
@@ -71629,7 +72307,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_88",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003660234892308558
+            ]
         },
         "dend_91": {
             "geom": {
@@ -71690,7 +72371,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_90",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004503534534855131
+            ]
         },
         "dend_92": {
             "geom": {
@@ -71763,7 +72447,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_90",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.004561937368287897
+            ]
         },
         "dend_93": {
             "geom": {
@@ -71806,7 +72493,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_87",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003401299365958014
+            ]
         },
         "dend_94": {
             "geom": {
@@ -72239,14 +72929,17 @@
                 "childX": 0.0,
                 "parentSec": "dend_93",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003479037994863979
+            ]
         },
         "dend_95": {
             "geom": {
                 "L": 56.08634074716461,
                 "Ra": 100.0,
                 "cm": 2.0,
-                "diam": 0.10889145550323863,
+                "diam": 0.10889145550323864,
                 "nseg": 1,
                 "pt3d": [
                     [
@@ -72324,7 +73017,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_94",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.0027411001807914
+            ]
         },
         "dend_96": {
             "geom": {
@@ -72469,7 +73165,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_95",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "dend_97": {
             "geom": {
@@ -72518,7 +73217,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_95",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.013331093327848554
+            ]
         },
         "dend_98": {
             "geom": {
@@ -72639,7 +73341,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_94",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003610412886316093
+            ]
         },
         "dend_99": {
             "geom": {
@@ -73726,7 +74431,10 @@
                 "childX": 0.0,
                 "parentSec": "dend_93",
                 "parentX": 1.0
-            }
+            },
+            "weightNorm": [
+                0.003554456001404626
+            ]
         },
         "soma": {
             "geom": {
@@ -74036,8 +74744,10 @@
                     "mod": "IClamp"
                 }
             },
-            "threshold": 0.0,
-            "topol": {}
+            "topol": {},
+            "weightNorm": [
+                0.0033327733319621386
+            ]
         }
     }
 }

@@ -60,7 +60,7 @@ if not loadCellParams:
     cellRule['secs']['axon_0']['threshold'] = 0.
 
     #set weight normalization
-    netParams.addCellParamsWeightNorm('PT5B_full', 'conn/PT5B_full _weightNorm.pkl',
+    netParams.addCellParamsWeightNorm('PT5B_full', 'conn/PT5B_full_weightNorm.pkl',
                                       threshold=cfg.weightNormThreshold)
 
     # save to json with all the above modifications so easier/faster to load
