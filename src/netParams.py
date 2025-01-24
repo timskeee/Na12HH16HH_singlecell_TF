@@ -10,7 +10,7 @@ from netpyne import specs
 try:
     from __main__ import cfg # import SimConfig object with params from parent module
 except:
-    from src.cfg import cfg
+    from cfg import cfg
 
 #########################################################################################
 #
@@ -31,7 +31,7 @@ loadCellParams = True
 saveCellParams = False
 
 if loadCellParams:
-   netParams.loadCellParamsRule(label='PT5B_full', fileName='cells/Na12HH16HH_TF.json')
+   netParams.loadCellParamsRule(label='PT5B_full', fileName='../cells/Na12HH16HH_TF.json')
 
 #------------------------------------------------------------------------------
 # Includes importing from hoc template or python class, and setting additional params
