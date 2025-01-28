@@ -79,7 +79,7 @@ netParams.popParams['PT5B'] =	{'cellType': 'PT5B_full', 'numCells': 1}
 ###############################################################################
 
 netParams.synMechParams['AMPA'] = {'mod':'MyExp2SynBB', 'tau1': 0.05, 'tau2': 5.3, 'e': 0}
-netParams.synMechParams['NMDA'] = {'mod': 'MyExp2SynNMDABB', 'tau1NMDA': 15, 'tau2NMDA': 150, 'e': 0}
+netParams.synMechParams['NMDA'] = {'mod': 'MyExp2SynNMDABB', 'tau1NMDA': cfg.nmdaTau1, 'tau2NMDA': 150, 'e': 0}
 
 
 ###############################################################################
