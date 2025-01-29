@@ -5,12 +5,10 @@ High-level specifications for M1 network model using NetPyNE
 
 """
 
-from netpyne import specs
+from netpyne.batchtools import specs
+from cfg import cfg
 
-try:
-    from __main__ import cfg # import SimConfig object with params from parent module
-except:
-    from cfg import cfg
+cfg.update()
 
 #########################################################################################
 #
