@@ -31,7 +31,7 @@ loadCellParams = True
 saveCellParams = False
 
 if loadCellParams:
-   netParams.loadCellParamsRule(label='PT5B_full', fileName='cells/Na12HH16HH_TF.json')
+   netParams.loadCellParamsRule(label='PT5B_full', fileName='../cells/Na12HH16HH_TF.json')
 
 #------------------------------------------------------------------------------
 # Includes importing from hoc template or python class, and setting additional params
@@ -39,7 +39,7 @@ if loadCellParams:
 
 if not loadCellParams:
     # import cell model from NEURON/Python code
-    netParams.importCellParams('PT5B_full', 'cells/Na12HH16HHModel_TF.py', 'Na12Model_TF')
+    netParams.importCellParams('PT5B_full', 'Na12HH16HHModel_TF.py', 'Na12Model_TF' )
 
     # rename soma to conform to netpyne standard
     netParams.renameCellParamsSec(label='PT5B_full', oldSec='soma_0', newSec='soma')
@@ -60,11 +60,11 @@ if not loadCellParams:
     cellRule['secs']['axon_0']['threshold'] = 0.
 
     #set weight normalization
-    netParams.addCellParamsWeightNorm('PT5B_full', 'conn/PT5B_full_weightNorm.pkl',
-                                      threshold=cfg.weightNormThreshold)
+    #netParams.addCellParamsWeightNorm('PT5B_full', 'conn/PT5B_full_weightNorm.pkl',
+                                     # threshold=cfg.weightNormThreshold)
 
     # save to json with all the above modifications so easier/faster to load
-    if saveCellParams: netParams.saveCellParamsRule(label='PT5B_full', fileName='cells/Na12HH16HH_TF.json')
+    if saveCellParams: netParams.saveCellParamsRule(label='PT5B_full', fileName='../cells/Na12HH16HH_TF.json')
 
 
 ###############################################################################
