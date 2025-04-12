@@ -1,11 +1,9 @@
 from NeuronModelClass import NeuronModel
 from NrnHelper import *
 import matplotlib.pyplot as plt
-import sys
 from pathlib import Path
 import numpy as np
 from currentscape.currentscape import plot_currentscape
-import pandas as pd
 import os
 import datetime
 
