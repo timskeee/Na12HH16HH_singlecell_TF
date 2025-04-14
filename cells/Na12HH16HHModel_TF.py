@@ -1,9 +1,11 @@
 from NeuronModelClass import NeuronModel
 from NrnHelper import *
 import matplotlib.pyplot as plt
+import sys
 from pathlib import Path
 import numpy as np
 from currentscape.currentscape import plot_currentscape
+import pandas as pd
 import os
 import datetime
 
@@ -48,7 +50,7 @@ class Na12Model_TF:
                 nav12=1.1,
                 nav16=1.43, 
                 somaK=0.022, 
-                KP=3.9375, 
+                KP=3.9375,
                 KT=5, 
                 ais_ca = 43,
                 ais_Kca = 0.25,

@@ -57,7 +57,7 @@ cfg.weightNormThreshold = 4.0  # weight normalization factor threshold
 #------------------------------------------------------------------------------
 cfg.addIClamp = 1 # change to 1 to add IClamps (can add multiple)
 
-cfg.IClamp1 = {'pop': 'PT5B' ,'sec': 'dend_20', 'loc': 0.5, 'start': 100, 'dur': 500, 'amp': 0.5}
+cfg.IClamp1 = {'pop': 'PT5B' ,'sec': 'dend_20', 'loc': 0.5, 'start': 100, 'dur': 500, 'amp': 1}
 
 
 #------------------------------------------------------------------------------
