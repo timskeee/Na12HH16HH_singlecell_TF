@@ -50,7 +50,7 @@ class Na12Model_TF:
                 nav12=1.1,
                 nav16=1.43, 
                 somaK=0.022, 
-                KP=3.9375,
+                KP=3.9375, #changed from tim's repo correct as of 4/14/2025
                 KT=5, 
                 ais_ca = 43,
                 ais_Kca = 0.25,
