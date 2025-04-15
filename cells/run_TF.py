@@ -1,17 +1,9 @@
-from NeuronModelClass import NeuronModel
-from NrnHelper import *
-import NrnHelper as nh
+from cells.Neuron_Model_12HH16HH.NrnHelper import *
 import matplotlib.pyplot as plt
-import sys
-from pathlib import Path
-import numpy as np
 from Na12HH_Model_TF import *
 import Na12HH_Model_TF as tf
 import os
 # import efel_feature_extractor as ef
-from currentscape.currentscape import plot_currentscape
-import logging
-import pandas as pd
 
 sim_config_soma = {
                 'section' : 'soma',

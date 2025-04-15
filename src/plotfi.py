@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from netpyne import specs, sim
-from netParams import netParams
-from cfg import cfg
+from netpyne import sim
+from src.netParams import netParams
+from src.cfg import cfg
 
 
 # Step 3: Define stimulation protocol (current injection range)
