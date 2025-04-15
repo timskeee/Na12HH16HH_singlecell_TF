@@ -29,20 +29,6 @@ class Na12Model_TF:
                 K=1, 
                 dend_nav12=1,
 
-                ## old 12HH16HH parameters 
-                # ais_nav12_fac=12,
-                # ais_nav16_fac=12,
-                # nav12=1,
-                # nav16=1.3, 
-                # somaK=1*2.2*0.01, 
-                # KP=25*0.15, 
-                # KT=5, 
-                # ais_ca = 100*8.6*0.1,
-                # ais_Kca = 0.5,
-                # soma_na16=1,
-                # soma_na12=3.2,
-                # node_na = 1):
-                
 
                 ## Parameters for New model 030425
                 ais_nav12_fac=5.76,
@@ -50,7 +36,7 @@ class Na12Model_TF:
                 nav12=1.1,
                 nav16=1.43, 
                 somaK=0.022, 
-                KP=3.9375, #changed from tim's repo correct as of 4/14/2025
+                KP=5.625, 
                 KT=5, 
                 ais_ca = 43,
                 ais_Kca = 0.25,
