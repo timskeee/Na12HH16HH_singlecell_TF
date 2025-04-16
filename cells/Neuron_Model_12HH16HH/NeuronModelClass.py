@@ -17,7 +17,7 @@ from NrnHelper import *
 
 
 class NeuronModel:
-    def __init__(self, ais_nav16_fac, ais_nav12_fac, mod_dir='./Neuron_Model_12HH16HH/',
+    def __init__(self, ais_nav16_fac, ais_nav12_fac, mod_dir='../cells/Neuron_Model_12HH16HH/',
                  # './Neuron_Model_12HH16HH/',#'./Neuron_Model_HH/',
 
                  update=True,
