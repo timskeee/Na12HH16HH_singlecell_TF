@@ -6,7 +6,7 @@ import numpy
 params = {'IClamp1.amp': [0.3, 0.4, 0.5, 0.6]}
 
 # use batch_sge_config if running on a
-shell_config = {'command': 'python init_batch.py',}
+shell_config = {'command': 'python plotfi.py',}
 
 search(job_type = 'sh',
        params          = params,
