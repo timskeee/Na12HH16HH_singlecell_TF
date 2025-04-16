@@ -171,7 +171,7 @@ extern void _cvode_abstol( Symbol**, double*, int);
 	int _vectorized = 0;
   _initlists();
  	hoc_register_var(hoc_scdoub, hoc_vdoub, hoc_intfunc);
- 	ivoc_help("help ?1 branching /Users/mollyleitner/Dev/Na12HH16HH_singlecell/mod/branching.mod\n");
+ 	ivoc_help("help ?1 branching /Users/mollyleitner/Dev/Na12HH16HH_singlecell/cells/Neuron_Model_12HH16HH/mechanisms/branching.mod\n");
  }
 static int _reset;
 static char *modelname = "";
@@ -215,7 +215,7 @@ double GetA (  double _lx ) {
 /*VERBATIM*/
 {
 #if defined(t)
-	_NrnThread* _nt = nrn_threads;
+	NrnThread* _nt = nrn_threads;
 #endif
 Section* sec;
 	Node* nd;
@@ -247,7 +247,7 @@ double GetB (  double _lx ) {
 /*VERBATIM*/
 {
 #if defined(t)
-	_NrnThread* _nt = nrn_threads;
+	NrnThread* _nt = nrn_threads;
 #endif
 Section* sec;
 	Node* nd;
@@ -279,7 +279,7 @@ double SetA (  double _lx , double _la ) {
 /*VERBATIM*/
 {
 #if defined(t)
-	_NrnThread* _nt = nrn_threads;
+	NrnThread* _nt = nrn_threads;
 #endif
 Section* sec;
 	Node* nd;
@@ -311,7 +311,7 @@ double SetB (  double _lx , double _lb ) {
 /*VERBATIM*/
 {
 #if defined(t)
-	_NrnThread* _nt = nrn_threads;
+	NrnThread* _nt = nrn_threads;
 #endif
 Section* sec;
 	Node* nd;
@@ -347,7 +347,7 @@ static int  MyPrintMatrix (  ) {
 	Node* nd;
 	int ii;
 #if defined(t)
-	_NrnThread* _nt = nrn_threads;
+	NrnThread* _nt = nrn_threads;
 #endif
 for(ii=0;ii<_nt->end;ii++){
 nd=_nt->_v_node[ii];
@@ -370,7 +370,7 @@ static int  MyAdb (  ) {
 {
 	int ii;
 #if defined(t)
-	_NrnThread* _nt = nrn_threads;
+	NrnThread* _nt = nrn_threads;
 #endif
 for(ii=0;ii<_nt->end;ii++){
 
@@ -392,7 +392,7 @@ static int  PrintRHS_D (  ) {
 {
 	int ii;
 #if defined(t)
-	_NrnThread* _nt = nrn_threads;
+	NrnThread* _nt = nrn_threads;
 #endif
 Node* nd;
 for(ii=0;ii<_nt->end;ii++){
@@ -415,7 +415,7 @@ static int  MyTopology (  ) {
 {
 	int ii;
 #if defined(t)
-	_NrnThread* _nt = nrn_threads;
+	NrnThread* _nt = nrn_threads;
 #endif
 for(ii=0;ii<_nt->end;ii++){
 
@@ -438,7 +438,7 @@ static int  MyTopology2 (  ) {
 	FILE * pFile;
 	int ii;
 #if defined(t)
-	_NrnThread* _nt = nrn_threads;
+	NrnThread* _nt = nrn_threads;
 #endif
 pFile = fopen ("parent.txt","w");
 for(ii=0;ii<_nt->end;ii++){
@@ -463,7 +463,7 @@ static int  MyTopology1 (  ) {
 	FILE * pFile;
 	int ii;
 #if defined(t)
-	_NrnThread* _nt = nrn_threads;
+	NrnThread* _nt = nrn_threads;
 #endif
 pFile = fopen ("64TL.csv","w");
 for(ii=0;ii<_nt->end;ii++){
@@ -491,7 +491,7 @@ static int  MyPrintMatrix1 (  ) {
 	Node* nd;
 	int ii;
 #if defined(t)
-	_NrnThread* _nt = nrn_threads;
+	NrnThread* _nt = nrn_threads;
 #endif
 for(ii=0;ii<_nt->end;ii++){
 nd=_nt->_v_node[ii];
@@ -518,7 +518,7 @@ static int  MyPrintMatrix3 (  ) {
 	Node* nd;
 	int ii;
 #if defined(t)
-	_NrnThread* _nt = nrn_threads;
+	NrnThread* _nt = nrn_threads;
 #endif
 for(ii=0;ii<_nt->end;ii++){
 nd=_nt->_v_node[ii];
