@@ -35,7 +35,8 @@ cfg.recordStep = 0.1 #step size to save data (e.g. voltage traces, LFP, et.)
 #------------------------------------------------------------------------------
 # Saving
 #------------------------------------------------------------------------------
-cfg.filename = 'data/Na12HH16HH_TF' #File output name
+cfg.simLabel = 'Na12HH16HH_TF' #File output name
+cfg.saveFolder = 'data'
 cfg.saveJson = True
 cfg.savePickle = False
 cfg.saveDataInclude = ['simData', 'simConfig', 'netParams', 'net']

@@ -6,11 +6,13 @@ High-level specifications for M1 network model using NetPyNE
 """
 
 from netpyne import specs
+from cfg import cfg
 
-try:
-    from __main__ import cfg # import SimConfig object with params from parent module
-except:
-    from src.cfg import cfg
+cfg.update()
+#try:
+#    from __main__ import cfg # import SimConfig object with params from parent module
+#except:
+#    from src.cfg import cfg
 
 #########################################################################################
 #
@@ -27,8 +29,8 @@ netParams = specs.NetParams() # Object class NetParams to store network paramete
 #------------------------------------------------------------------------------
 # Load cell rules previously saved using netpyne format
 #------------------------------------------------------------------------------
-loadCellParams = True
-saveCellParams = False
+loadCellParams = False
+saveCellParams = True
 
 if loadCellParams:
    netParams.loadCellParamsRule(label='PT5B_full', fileName='../cells/Na12HH16HH_TF.json')
@@ -64,7 +66,7 @@ if not loadCellParams:
                                      # threshold=cfg.weightNormThreshold)
 
     # save to json with all the above modifications so easier/faster to load
-    if saveCellParams: netParams.saveCellParamsRule(label='PT5B_full', fileName='../cells/Na12HH16HH_TF.json')
+    if saveCellParams: netParams.saveCellParamsRule(label='PT5B_full', fileName='Na12HH16HH_TF.json')
 
 
 ###############################################################################
