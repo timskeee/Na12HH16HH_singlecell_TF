@@ -16,7 +16,7 @@ cfg = specs.SimConfig() # Object of class SimConfig to store simulation configur
 #------------------------------------------------------------------------------
 #  Simulation Parameters
 #------------------------------------------------------------------------------
-# fg.duration = 1*1e3 # Duration of simulation in ms
+cfg.duration = 200 # Duration of simulation in ms
 cfg.dt = 0.025 # Internal integration time step (ms)
 cfg.hParams = {'celsius': 34, 'v_init':-80}
 cfg.verbose = False # Show detailed messages
@@ -58,7 +58,7 @@ cfg.weightNormThreshold = 4.0  # weight normalization factor threshold
 #------------------------------------------------------------------------------
 cfg.addIClamp = 1 # change to 1 to add IClamps (can add multiple)
 
-cfg.IClamp1 = {'pop': 'PT5B' ,'sec': 'soma', 'loc': 0.5, 'start': 100, 'dur': 500, 'amp': 0.4}
+cfg.IClamp1 = {'pop': 'PT5B' ,'sec': 'soma', 'loc': 0.5, 'start': 0, 'dur': 500, 'amp': 0.4}
 
 
 #------------------------------------------------------------------------------
