@@ -29,8 +29,8 @@ netParams = specs.NetParams() # Object class NetParams to store network paramete
 #------------------------------------------------------------------------------
 # Load cell rules previously saved using netpyne format
 #------------------------------------------------------------------------------
-loadCellParams = False
-saveCellParams = True
+loadCellParams = True
+saveCellParams = False
 
 if loadCellParams:
    netParams.loadCellParamsRule(label='PT5B_full', fileName='../cells/Na12HH16HH_TF.json')
@@ -53,8 +53,8 @@ if not loadCellParams:
     cellRule['secs']['axon_0']['spikeGenLoc'] = 0.5
 
     # add pt3d for axon sections so SecList does not break
-    cellRule['secs']['axon_0']['geom']['pt3d'] = [[1e30, 1e30, 1e30]]
-    cellRule['secs']['axon_1']['geom']['pt3d'] = [[1e30, 1e30, 1e30]]
+    cellRule['secs']['axon_0']['geom']['pt3d'] = [[1e30, 1e30, 1e30, 1.6440753755318644]]
+    cellRule['secs']['axon_1']['geom']['pt3d'] = [[1e30, 1e30, 1e30, 1.6440753755318644]]
 
     # define cell conds
     netParams.cellParams['PT5B_full']['conds'] = {'cellModel': 'HH_full', 'cellType': 'PT'}
@@ -73,14 +73,17 @@ if not loadCellParams:
         if sec in cellRule['secLists']['perisom']:  # fixed logic
             cellRule['secLists']['perisom'].remove(sec)
 
+    del netParams.cellParams['PT5B_full']['secs']['soma']['pointps']
+    del netParams.cellParams['PT5B_full']['secs']['dend_0']['pointps']
+
     # Decrease dendritic Na
-    for secName in netParams.cellParams['PT5B_full']['secs']:
-        if secName.startswith('apic'):
-            print(secName)
-            print(netParams.cellParams['PT5B_full']['secs'][secName]['mechs']['na12mut'])
-            print(netParams.cellParams['PT5B_full']['secs'][secName]['mechs']['na12'])
-            netParams.cellParams['PT5B_full']['secs'][secName]['mechs']['na12'] *= cfg.dendNa
-            netParams.cellParams['PT5B_full']['secs'][secName]['mechs']['na12mut'] *= cfg.dendNa
+    #for secName in netParams.cellParams['PT5B_full']['secs']:
+       # if secName.startswith('apic'):
+            #print(secName)
+            #print(netParams.cellParams['PT5B_full']['secs'][secName]['mechs']['na12mut'])
+            #print(netParams.cellParams['PT5B_full']['secs'][secName]['mechs']['na12'])
+            #netParams.cellParams['PT5B_full']['secs'][secName]['mechs']['na12'] *= cfg.dendNa
+            #netParams.cellParams['PT5B_full']['secs'][secName]['mechs']['na12mut'] *= cfg.dendNa
 
     #set weight normalization
     netParams.addCellParamsWeightNorm('PT5B_full', '../conn/PT5B_full_weightNorm.pkl',
