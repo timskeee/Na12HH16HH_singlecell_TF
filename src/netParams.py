@@ -57,7 +57,7 @@ if not loadCellParams:
     cellRule['secs']['axon_1']['geom']['pt3d'] = [[1e30, 1e30, 1e30, 1.6440753755318644]]
 
     # define cell conds
-    netParams.cellParams['PT5B_full']['conds'] = {'cellModel': 'HH_full', 'cellType': 'PT'}
+    netParams.cellParams['PT5B_full']['conds'] = {'cellModel': 'HH_full', 'cellType': 'PT', 'numCells': 1}
 
     # create lists useful to define location of synapses
     nonSpiny = ['apic_0', 'apic_1']
