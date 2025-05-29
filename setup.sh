@@ -1,0 +1,2 @@
+unset DISPLAY
+export PYTHONPATH=$PWD
