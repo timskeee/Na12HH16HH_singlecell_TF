@@ -22,6 +22,8 @@ cfg.hParams = {'celsius': 34, 'v_init':-80}
 cfg.verbose = False # Show detailed messages
 cfg.printPopAvgRates = True
 
+cfg.createNEURONObj = 1
+cfg.createPyStruct = 1
 
 #------------------------------------------------------------------------------
 # Recording
@@ -72,4 +74,4 @@ cfg.NetStim1 = {'pop': 'PT5B', 'sec': 'dend_20', 'loc': 0.5, 'synMech': ['AMPA',
 #------------------------------------------------------------------------------
 # Sodium Params
 #------------------------------------------------------------------------------
-cfg.dendNa = 0.3
+cfg.dendNa = 1
