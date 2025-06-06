@@ -18,5 +18,7 @@ rate = len(spike_times)
 
 data = json.dumps({'amp': sim.net.params.stimSourceParams['IClamp1']['amp'],
                    'rate': rate})
+
+
 sim.send(data)
 print(data)
