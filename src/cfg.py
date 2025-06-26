@@ -35,7 +35,7 @@ cfg.recordStep = 0.1 #step size to save data (e.g. voltage traces, LFP, et.)
 #------------------------------------------------------------------------------
 # Saving
 #------------------------------------------------------------------------------
-cfg.filename = 'data/Na12HH16HH_TF' #File output name
+cfg.filename = 'data/Na12HH16HH_TF_test' #File output name
 cfg.saveJson = True
 cfg.savePickle = False
 cfg.saveDataInclude = ['simData', 'simConfig', 'netParams', 'net']
@@ -43,7 +43,7 @@ cfg.saveDataInclude = ['simData', 'simConfig', 'netParams', 'net']
 #------------------------------------------------------------------------------
 # Analysis and Plotting
 #------------------------------------------------------------------------------
-#cfg.analysis['plotRaster'] = {'saveFig': True} # Plot Raster
+cfg.analysis['plotRaster'] = {'saveFig': True} # Plot Raster
 cfg.analysis['plotTraces'] = {'saveFig': True} # Plot Traces
 
 #------------------------------------------------------------------------------

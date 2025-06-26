@@ -8,7 +8,7 @@ High-level specifications for M1 network model using NetPyNE
 from netpyne.batchtools import specs
 from cfg import cfg
 
-cfg.update()
+# cfg.update()
 
 #########################################################################################
 #
