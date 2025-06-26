@@ -4,7 +4,7 @@ import plotly.express as px
 import pandas as pd
 
 # Create parameter grid for search
-params = {'IClamp1.amp': [-0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8, 1]}
+params = {'IClamp1.amp': [0.2, 0.4, 0.6, 0.8, 1]}
 
 # use batch_sge_config if running on a
 shell_config = {'command': 'python init_fi.py',}
@@ -23,6 +23,6 @@ results = search(job_type = 'sh',
 
 df = pd.read_csv('grid_search.csv')
 
-fig = px.line(df, x='config/IClamp1.amp', y='rate')
+fig = px.scatter(df, x='config/IClamp1.amp', y='rate')
 
 fig.write_html('grid_fi.html')
