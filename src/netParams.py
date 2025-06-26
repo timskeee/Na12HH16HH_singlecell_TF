@@ -45,6 +45,9 @@ if not loadCellParams:
     # set variable so easier to work with below
     cellRule = netParams.cellParams['PT5B_full']
 
+    # define cell conds
+    cellRule['conds'] = {'cellModel': 'HH_full', 'cellType': 'PT'}
+
     # create some section lists useful to define the locations of synapses
     cellRule['secLists']['alldend'] = [sec for sec in cellRule['secs'] if ('dend' in sec or 'apic' in sec)]  # basal+apical
     cellRule['secLists']['apicdend'] = [sec for sec in cellRule['secs'] if ('apic' in sec)]  # apical
