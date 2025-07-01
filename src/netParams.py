@@ -5,6 +5,7 @@ High-level specifications for M1 network model using NetPyNE
 
 """
 
+<<<<<<< HEAD
 from netpyne import specs
 from cfg import cfg
 
@@ -13,6 +14,12 @@ from cfg import cfg
 #    from __main__ import cfg # import SimConfig object with params from parent module
 #except:
 #    from src.cfg import cfg
+=======
+from netpyne.batchtools import specs
+from cfg import cfg
+
+# cfg.update()
+>>>>>>> 8369f25d633b5871e67604248cd807af194ce57d
 
 #########################################################################################
 #
@@ -41,7 +48,11 @@ if loadCellParams:
 
 if not loadCellParams:
     # import cell model from NEURON/Python code
+<<<<<<< HEAD
     netParams.importCellParams('PT5B_full', '../cells/Neuron_Model_12HH16HH/Na12HH16HHModel_TF.py', 'Na12Model_TF' )
+=======
+    netParams.importCellParams('PT5B_full', 'cells/Na12HH_Model_TF.py', 'Na12Model_TF')
+>>>>>>> 8369f25d633b5871e67604248cd807af194ce57d
 
     # rename soma to conform to netpyne standard
     netParams.renameCellParamsSec(label='PT5B_full', oldSec='soma_0', newSec='soma')
@@ -49,6 +60,18 @@ if not loadCellParams:
     # set variable so easier to work with below
     cellRule = netParams.cellParams['PT5B_full']
 
+<<<<<<< HEAD
+=======
+    # define cell conds
+    cellRule['conds'] = {'cellModel': 'HH_full', 'cellType': 'PT'}
+
+    # create some section lists useful to define the locations of synapses
+    cellRule['secLists']['alldend'] = [sec for sec in cellRule['secs'] if ('dend' in sec or 'apic' in sec)]  # basal+apical
+    cellRule['secLists']['apicdend'] = [sec for sec in cellRule['secs'] if ('apic' in sec)]  # apical
+    nonSpiny = ['apic_0', 'apic_1']
+    cellRule['secLists']['spiny'] = [sec for sec in cellRule['secLists']['alldend'] if sec not in nonSpiny]
+
+>>>>>>> 8369f25d633b5871e67604248cd807af194ce57d
     # set the spike generation location to the axon (default in NEURON is the soma)
     cellRule['secs']['axon_0']['spikeGenLoc'] = 0.5
 
@@ -106,7 +129,7 @@ netParams.popParams['PT5B'] =	{'cellModel': 'HH_full', 'cellType': 'PT', 'numCel
 ###############################################################################
 
 netParams.synMechParams['AMPA'] = {'mod':'MyExp2SynBB', 'tau1': 0.05, 'tau2': 5.3, 'e': 0}
-netParams.synMechParams['NMDA'] = {'mod': 'MyExp2SynNMDABB', 'tau1NMDA': 15, 'tau2NMDA': 150, 'e': 0}
+netParams.synMechParams['NMDA'] = {'mod': 'MyExp2SynNMDABB', 'tau1NMDA': cfg.nmdaTau1, 'tau2NMDA': 150, 'e': 0}
 
 
 ###############################################################################

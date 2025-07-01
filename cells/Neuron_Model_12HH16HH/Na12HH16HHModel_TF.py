@@ -10,7 +10,20 @@ import os
 import datetime
 
 
+
+
+###########################################
+###########################################
+###########################################
+###########################################
+## This is the Nav1.2 HH / Nav1.6 HH model with correct parameters/mechs as of 091224.
+###########################################
+###########################################
+###########################################
+########################################### 
+
 class Na12Model_TF:
+<<<<<<< HEAD:cells/Neuron_Model_12HH16HH/Na12HH16HHModel_TF.py
     def __init__(self,na12name = 'na12annaTFHH2',
                 mut_name= 'na12annaTFHH2',  ## Change this to 'na12_mut' if you want to make heterozygous mutant 
                 na12mechs = ['na12','na12mut'],
@@ -40,6 +53,36 @@ class Na12Model_TF:
     
         K = 1
         node_na = 0.5      
+=======
+    def __init__(self,na12name = 'na12HH',mut_name= 'na12HH',  na12mechs = ['na12','na12mut'],
+                na16name = 'na16HH',na16mut_name ='na16HH', na16mechs = ['na16','na16'], 
+                params_folder = './params/',plots_folder = './Plots/',pfx='testprefix',update = None, fac=None,
+                K=1, 
+                dend_nav12=1, 
+                ais_nav12_fac=12,
+                ais_nav16_fac=12,
+                nav12=1,nav16=1.3, 
+                somaK=1*2.2*0.01, 
+                KP=25*0.15, 
+                KT=5, 
+                ais_ca = 100*8.6*0.1,
+                ais_Kca = 0.5,
+                soma_na16=1,
+                soma_na12=3.2,
+                node_na = 1):
+        
+                              
+
+
+        #Change K and Na to move FI
+        # K = 0.75#0.01#0.1#0.25#3#6#10(didn't fire) #2#1.5#0.75#1 #4
+        K = 1 ##TF020624
+        #node_na = 100
+        # node_na = 0.1 #Changed from 100 to reduce na16 at seg 1 of axon[1] where it was spiking to gbar of 50! TF020124
+        node_na = 0.5 #(0.5 good value, default following newAIS) #1#100#90#80#70#60#50#40#30#20 #10
+
+        
+>>>>>>> 8369f25d633b5871e67604248cd807af194ce57d:cells/Na12HH_Model_TF.py
            
 
         self.l5mdl = NeuronModel(nav12=nav12, nav16=nav16,axon_K = K,axon_Kp = KP,axon_Kt = KT,soma_K = somaK,
@@ -61,7 +104,24 @@ class Na12Model_TF:
         self.plot_folder = f'{plots_folder}'
         Path(self.plot_folder).mkdir(parents=True, exist_ok=True)
         self.pfx = pfx
+<<<<<<< HEAD:cells/Neuron_Model_12HH16HH/Na12HH16HHModel_TF.py
 
+=======
+    
+   
+        # print("TOPOLOGY BELOW ######################################################")
+        # print(h("topology()"))
+
+        
+
+
+        """
+        print(f'using na16_file {na16name}')
+        p_fn_na16 = f'{params_folder}{na16name}.txt'
+        self.na16_p = update_mech_from_dict(self.l5mdl, p_fn_na16, self.na16mechs) 
+        """
+    
+>>>>>>> 8369f25d633b5871e67604248cd807af194ce57d:cells/Na12HH_Model_TF.py
 
     
 
@@ -400,10 +460,10 @@ class Na12Model_TF:
         return fis
     
 
-    def plot_volts_dvdt(self,stim_amp = 0.5):
+    def plot_volts_dvdt(self,stim_amp = 0.4, axs = None):
         fig_volts,axs_volts = plt.subplots(1,figsize=(cm_to_in(8),cm_to_in(7.8)))
         fig_dvdt,axs_dvdt = plt.subplots(1,figsize=(cm_to_in(8),cm_to_in(7.8)))
-        self.plot_stim(axs = axs_volts,dt=0.02)
+        self.plot_stim(axs = axs_volts,dt=0.01)
         plot_dvdt_from_volts(self.volt_soma,self.dt,axs_dvdt)
         file_path_to_save=f'{self.plot_folder}WT_volts_dvdt_{stim_amp}.pdf'
         fig_dvdt.savefig(file_path_to_save, format='pdf', dpi=my_dpi)
@@ -804,4 +864,43 @@ def dvdt_all_plot(al1 = 'na12_orig1', al2= 'na12_R850P_5may',stim_amp = 0.5, sti
     axs.set_title(f'stim {stim_amp}, al1: {al1}, al2: {al2}', fontsize=9)
     axs.legend()
     fn = f'./Plots/Tim/{al2}_{stim_amp}_{stim_dur}.pdf'
+<<<<<<< HEAD:cells/Neuron_Model_12HH16HH/Na12HH16HHModel_TF.py
     fig_volts.savefig(fn)
+=======
+    fig_volts.savefig(fn)
+
+
+
+
+#sim = Na12Model_TF('na12_orig1', 'na12_orig1')
+#sim.plot_currents()
+#sim.get_ap_init_site()
+#scan_sec_na()
+#update_param_value(sim.l5mdl,['SKv3_1'],'mtaumul',1)
+#sim.plot_volts_dvdt()
+#sim.plot_fi_curve(0,1,10)
+#default_model(al1 = 'na12_orig1',al2 = 'na12_orig1',typ='WT')
+#scanK()
+#scanKT()
+#scanKv31()
+#scan12_16()
+##plot_mutant(na12name = 'na12_R850P',mut_name= 'na12_R850P')
+#sim.plot_axonal_ks()
+"""
+for i in range (6,12):
+    for j in range (1,3):
+        dvdt_all_plot(al1 = 'na12_orig1', al2= 'na12_R850P_5may', stim_amp=i*0.05,  stim_dur = j* 500 )
+
+for i in range (6,12):
+    for j in range (1,3):
+        dvdt_all_plot(al1 = 'na12_orig1', al2= 'na12_R850P_old', stim_amp=i*0.05,  stim_dur = j* 500 )
+    
+for i in range (6,12):
+    for j in range (1,3):
+        dvdt_all_plot(al1 = 'na12_orig1', al2= 'R850P', stim_amp=i*0.05,  stim_dur = j* 500 )
+"""
+
+
+#dvdt_all_plot(al1 = 'na12_orig1', al2= 'na12_R850P_old', stim_amp=0.7,  stim_dur = 500 )
+#dvdt_all_plot(al1 = 'na12_orig1', al2= 'na12_R850P_5may', stim_amp=0.7,  stim_dur = 500 )
+>>>>>>> 8369f25d633b5871e67604248cd807af194ce57d:cells/Na12HH_Model_TF.py

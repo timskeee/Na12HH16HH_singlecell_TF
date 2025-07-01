@@ -69,10 +69,17 @@ extern void _kdrin_reg(void);
 extern void _km_reg(void);
 extern void _kv_reg(void);
 extern void _my_exp2syn_reg(void);
+<<<<<<< HEAD
 extern void _na12HH_reg(void);
 extern void _na12HHmut_reg(void);
 extern void _na16HH_reg(void);
 extern void _na16HHmut_reg(void);
+=======
+extern void _na12annaTFHH_reg(void);
+extern void _na12annaTFHHmut_reg(void);
+extern void _na16HH_TF_reg(void);
+extern void _na16HHmut_TF_wtcopy_reg(void);
+>>>>>>> 8369f25d633b5871e67604248cd807af194ce57d
 extern void _nafcr_reg(void);
 extern void _nafx_reg(void);
 extern void _nap_sidi_reg(void);
@@ -85,6 +92,7 @@ extern void _vecstim_reg(void);
 void modl_reg() {
   if (!nrn_nobanner_) if (nrnmpi_myid < 1) {
     fprintf(stderr, "Additional mechanisms from files\n");
+<<<<<<< HEAD
     fprintf(stderr, " \"../mod/CaDynamics_E2.mod\"");
     fprintf(stderr, " \"../mod/Ca_HVA.mod\"");
     fprintf(stderr, " \"../mod/Ca_LVAst.mod\"");
@@ -160,6 +168,83 @@ void modl_reg() {
     fprintf(stderr, " \"../mod/savedist.mod\"");
     fprintf(stderr, " \"../mod/vclmp_pl.mod\"");
     fprintf(stderr, " \"../mod/vecstim.mod\"");
+=======
+    fprintf(stderr, " \"./mod/CaDynamics_E2.mod\"");
+    fprintf(stderr, " \"./mod/Ca_HVA.mod\"");
+    fprintf(stderr, " \"./mod/Ca_LVAst.mod\"");
+    fprintf(stderr, " \"./mod/HCN1.mod\"");
+    fprintf(stderr, " \"./mod/IC.mod\"");
+    fprintf(stderr, " \"./mod/IKsin.mod\"");
+    fprintf(stderr, " \"./mod/Ih.mod\"");
+    fprintf(stderr, " \"./mod/Im.mod\"");
+    fprintf(stderr, " \"./mod/K_Pst.mod\"");
+    fprintf(stderr, " \"./mod/K_Tst.mod\"");
+    fprintf(stderr, " \"./mod/MyExp2SynBB.mod\"");
+    fprintf(stderr, " \"./mod/MyExp2SynNMDABB.mod\"");
+    fprintf(stderr, " \"./mod/Nca.mod\"");
+    fprintf(stderr, " \"./mod/ProbAMPANMDA_EMS.mod\"");
+    fprintf(stderr, " \"./mod/ProbGABAAB_EMS.mod\"");
+    fprintf(stderr, " \"./mod/SK_E2.mod\"");
+    fprintf(stderr, " \"./mod/SKv3_1.mod\"");
+    fprintf(stderr, " \"./mod/ar_traub.mod\"");
+    fprintf(stderr, " \"./mod/branching.mod\"");
+    fprintf(stderr, " \"./mod/cadad.mod\"");
+    fprintf(stderr, " \"./mod/cadyn.mod\"");
+    fprintf(stderr, " \"./mod/cagk.mod\"");
+    fprintf(stderr, " \"./mod/cal_mh.mod\"");
+    fprintf(stderr, " \"./mod/cal_mig.mod\"");
+    fprintf(stderr, " \"./mod/can_mig.mod\"");
+    fprintf(stderr, " \"./mod/cancr.mod\"");
+    fprintf(stderr, " \"./mod/canin.mod\"");
+    fprintf(stderr, " \"./mod/cat_mig.mod\"");
+    fprintf(stderr, " \"./mod/cat_traub.mod\"");
+    fprintf(stderr, " \"./mod/catcb.mod\"");
+    fprintf(stderr, " \"./mod/ch_CavL.mod\"");
+    fprintf(stderr, " \"./mod/ch_CavN.mod\"");
+    fprintf(stderr, " \"./mod/ch_KCaS.mod\"");
+    fprintf(stderr, " \"./mod/ch_Kdrfastngf.mod\"");
+    fprintf(stderr, " \"./mod/ch_KvAngf.mod\"");
+    fprintf(stderr, " \"./mod/ch_KvCaB.mod\"");
+    fprintf(stderr, " \"./mod/ch_Navngf.mod\"");
+    fprintf(stderr, " \"./mod/ch_leak.mod\"");
+    fprintf(stderr, " \"./mod/dipole.mod\"");
+    fprintf(stderr, " \"./mod/dipole_pp.mod\"");
+    fprintf(stderr, " \"./mod/gabab.mod\"");
+    fprintf(stderr, " \"./mod/h_BS.mod\"");
+    fprintf(stderr, " \"./mod/h_harnett.mod\"");
+    fprintf(stderr, " \"./mod/h_kole.mod\"");
+    fprintf(stderr, " \"./mod/h_migliore.mod\"");
+    fprintf(stderr, " \"./mod/hin.mod\"");
+    fprintf(stderr, " \"./mod/ican_sidi.mod\"");
+    fprintf(stderr, " \"./mod/iccr.mod\"");
+    fprintf(stderr, " \"./mod/iconc_Ca.mod\"");
+    fprintf(stderr, " \"./mod/ikscr.mod\"");
+    fprintf(stderr, " \"./mod/kBK.mod\"");
+    fprintf(stderr, " \"./mod/kap_BS.mod\"");
+    fprintf(stderr, " \"./mod/kapcb.mod\"");
+    fprintf(stderr, " \"./mod/kapin.mod\"");
+    fprintf(stderr, " \"./mod/kca.mod\"");
+    fprintf(stderr, " \"./mod/kctin.mod\"");
+    fprintf(stderr, " \"./mod/kdmc_BS.mod\"");
+    fprintf(stderr, " \"./mod/kdr_BS.mod\"");
+    fprintf(stderr, " \"./mod/kdrcr.mod\"");
+    fprintf(stderr, " \"./mod/kdrin.mod\"");
+    fprintf(stderr, " \"./mod/km.mod\"");
+    fprintf(stderr, " \"./mod/kv.mod\"");
+    fprintf(stderr, " \"./mod/my_exp2syn.mod\"");
+    fprintf(stderr, " \"./mod/na12annaTFHH.mod\"");
+    fprintf(stderr, " \"./mod/na12annaTFHHmut.mod\"");
+    fprintf(stderr, " \"./mod/na16HH_TF.mod\"");
+    fprintf(stderr, " \"./mod/na16HHmut_TF_wtcopy.mod\"");
+    fprintf(stderr, " \"./mod/nafcr.mod\"");
+    fprintf(stderr, " \"./mod/nafx.mod\"");
+    fprintf(stderr, " \"./mod/nap_sidi.mod\"");
+    fprintf(stderr, " \"./mod/nax_BS.mod\"");
+    fprintf(stderr, " \"./mod/naz.mod\"");
+    fprintf(stderr, " \"./mod/savedist.mod\"");
+    fprintf(stderr, " \"./mod/vclmp_pl.mod\"");
+    fprintf(stderr, " \"./mod/vecstim.mod\"");
+>>>>>>> 8369f25d633b5871e67604248cd807af194ce57d
     fprintf(stderr, "\n");
   }
   _CaDynamics_E2_reg();
@@ -225,10 +310,17 @@ void modl_reg() {
   _km_reg();
   _kv_reg();
   _my_exp2syn_reg();
+<<<<<<< HEAD
   _na12HH_reg();
   _na12HHmut_reg();
   _na16HH_reg();
   _na16HHmut_reg();
+=======
+  _na12annaTFHH_reg();
+  _na12annaTFHHmut_reg();
+  _na16HH_TF_reg();
+  _na16HHmut_TF_wtcopy_reg();
+>>>>>>> 8369f25d633b5871e67604248cd807af194ce57d
   _nafcr_reg();
   _nafx_reg();
   _nap_sidi_reg();

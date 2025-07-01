@@ -279,7 +279,11 @@ double SetA (  double _lx , double _la ) {
 /*VERBATIM*/
 {
 #if defined(t)
+<<<<<<< HEAD
 	NrnThread* _nt = nrn_threads;
+=======
+		NrnThread* _nt = nrn_threads;
+>>>>>>> 8369f25d633b5871e67604248cd807af194ce57d
 #endif
 Section* sec;
 	Node* nd;
