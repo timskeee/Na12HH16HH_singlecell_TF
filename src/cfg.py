@@ -37,7 +37,7 @@ cfg.recordStep = 0.1 #step size to save data (e.g. voltage traces, LFP, et.)
 #------------------------------------------------------------------------------
 # Saving
 #------------------------------------------------------------------------------
-cfg.simLabel = 'Na12HH16HH_TF' #File output name
+cfg.simLabel = 'Na12HH16HH_TF_newTest2' #File output name
 cfg.saveFolder = 'data'
 cfg.saveJson = True
 cfg.savePickle = False
@@ -60,7 +60,7 @@ cfg.weightNormThreshold = 4.0  # weight normalization factor threshold
 #------------------------------------------------------------------------------
 cfg.addIClamp = 0 # change to 1 to add IClamps (can add multiple)
 
-cfg.IClamp1 = {'pop': 'PT5B' ,'sec': 'soma', 'loc': 0.5, 'start': 0, 'dur': 500, 'amp': 0.4}
+cfg.IClamp1 = {'pop': 'PT5B' ,'sec': 'soma', 'loc': 0.5, 'start': 100, 'dur': 500, 'amp': 0.4}
 
 
 #------------------------------------------------------------------------------
