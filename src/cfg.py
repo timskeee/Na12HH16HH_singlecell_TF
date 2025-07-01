@@ -37,12 +37,7 @@ cfg.recordStep = 0.1 #step size to save data (e.g. voltage traces, LFP, et.)
 #------------------------------------------------------------------------------
 # Saving
 #------------------------------------------------------------------------------
-<<<<<<< HEAD
-cfg.simLabel = 'Na12HH16HH_TF_newTest2' #File output name
-cfg.saveFolder = 'data'
-=======
-cfg.filename = 'data/Na12HH16HH_TF_test' #File output name
->>>>>>> 8369f25d633b5871e67604248cd807af194ce57d
+cfg.filename = 'data/Na12HH16HH_TF_test3' #File output name
 cfg.saveJson = True
 cfg.savePickle = False
 cfg.saveDataInclude = ['simData', 'simConfig', 'netParams', 'net']
@@ -62,7 +57,7 @@ cfg.weightNormThreshold = 4.0  # weight normalization factor threshold
 #------------------------------------------------------------------------------
 # Current Inputs
 #------------------------------------------------------------------------------
-cfg.addIClamp = 0 # change to 1 to add IClamps (can add multiple)
+cfg.addIClamp = 1 # change to 1 to add IClamps (can add multiple)
 
 cfg.IClamp1 = {'pop': 'PT5B' ,'sec': 'soma', 'loc': 0.5, 'start': 100, 'dur': 500, 'amp': 0.4}
 
@@ -76,12 +71,6 @@ cfg.NetStim1 = {'pop': 'PT5B', 'sec': 'soma', 'loc': 0.5, 'synMech': ['AMPA', 'N
 				'start': 0, 'interval': 1000.0/40.0, 'noise': 0.0, 'number': 1000.0, 'weight': 0.5, 'delay': 0}
 
 #------------------------------------------------------------------------------
-<<<<<<< HEAD
-# Sodium Params
-#------------------------------------------------------------------------------
-cfg.dendNa = 1
-=======
 # Synaptic Mechs
 #------------------------------------------------------------------------------
 cfg.nmdaTau1 = 15
->>>>>>> 8369f25d633b5871e67604248cd807af194ce57d
