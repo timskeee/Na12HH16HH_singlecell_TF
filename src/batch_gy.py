@@ -17,7 +17,7 @@ base_params = {
 }
 
 #factors = [20,50]
-factors = np.linspace(10, 20, 20)  # More granular range from 0.1 to 10
+factors = np.linspace(20, 30, 10)  # More granular range from 0.1 to 10
 
 for key, base_val in base_params.items():
     for factor in factors:
