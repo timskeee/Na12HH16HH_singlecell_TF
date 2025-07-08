@@ -4,7 +4,7 @@ cfg.py
 Simulation Configuration
 """
 from netpyne import specs
-
+import os
 cfg = specs.SimConfig() # Object of class SimConfig to store simulation configuration
 
 #########################################################################################
@@ -65,10 +65,11 @@ cfg.IClamp1 = {'pop': 'PT5B' ,'sec': 'soma', 'loc': 0.5, 'start': 100, 'dur': 50
 #------------------------------------------------------------------------------
 # NetStim Inputs
 #------------------------------------------------------------------------------
-cfg.addNetStim = 1   # change to 1 to add NetStims (can add multiple)
+cfg.addNetStim = 2   # change to 1 to add NetStims (can add multiple)
 
-"""cfg.NetStim1 = {'pop': 'PT5B', 'sec': 'soma', 'loc': 0.5, 'synMech': ['AMPA', 'NMDA'], 'synMechWeightFactor': [0.5, 0.5],
-				'start': 0, 'interval': 1000.0/40.0, 'noise': 0.0, 'number': 1000.0, 'weight': 0.5, 'delay': 0}"""
+"""
+cfg.NetStim1 = {'pop': 'PT5B', 'sec': 'soma', 'loc': 0.5, 'synMech': ['AMPA', 'NMDA'], 'synMechWeightFactor': [0.5, 0.5],
+				'start': 0, 'interval': 1000.0/40.0, 'noise': 0.0, 'number': 1000.0, 'weight': 0.5, 'delay': 0}
 cfg.NetStim1 = {
     'pop': 'PT5B',
     'sec': 'dend_73',
@@ -82,6 +83,42 @@ cfg.NetStim1 = {
     'weight': 1,
     'delay': 0.01
 }
+"""
+def get_env_or_default(key, default):
+    val_str = os.environ.get(key, default)
+    if isinstance(default, int):
+        return int(float(val_str))  # Handles strings like "2.0"
+    return float(val_str)
+
+
+cfg.NetStim1 = {
+    'pop': 'PT5B',
+    'sec': 'dend_73',
+    'loc': 0.5,
+    'synMech': ['AMPA', 'NMDA'], 
+    'synMechWeightFactor': [0.5,0.5],
+    'start': get_env_or_default('NSTIM_START', 300.0),
+    'interval': get_env_or_default('NSTIM_INTERVAL', 1),
+    'noise': get_env_or_default('NSTIM_NOISE', 0.0),
+    'number': get_env_or_default('NSTIM_NUMBER', 5.0),
+    'weight': get_env_or_default('NSTIM_WEIGHT', 1.0),
+    'delay': get_env_or_default('NSTIM_DELAY', 0.01)
+}
+cfg.NetStim2 = {
+    'pop': 'PT5B',                 # Same or different population
+    'sec': 'dend_85',             # Different section name
+    'loc': 0.7,                   # Different location along the section
+    'synMech': ['AMPA', 'NMDA'],
+    'synMechWeightFactor': [0.5, 0.5],
+    'start': get_env_or_default('NSTIM2_START', 500.0),   # Custom start time
+    'interval': get_env_or_default('NSTIM2_INTERVAL', 1),
+    'noise': get_env_or_default('NSTIM2_NOISE', 0.0),
+    'number': get_env_or_default('NSTIM2_NUMBER', 5.0),
+    'weight': get_env_or_default('NSTIM2_WEIGHT', 1.0),
+    'delay': get_env_or_default('NSTIM2_DELAY', 0.01)
+}
+
+cfg.filename = os.environ.get('OUT_FILENAME', 'data/Na12HH16HH_TF_test3')
 
 #------------------------------------------------------------------------------
 # Synaptic Mechs

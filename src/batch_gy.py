@@ -3,30 +3,30 @@ from netpyne import sim
 from cfg import cfg
 from netParams import netParams
 import copy
+import os
+import subprocess
+import numpy as np
 
-# Base NetStim1 dictionary
-base_params = cfg.NetStim1
 
-# Keys to modify and their original values
-param_keys =["weight"]
-# [k for k in base_params if isinstance(base_params[k], (int, float))]
+# Base NetStim1 parameters
+base_params = {
+    #'NSTIM_DELAY': 0.01,
+    #'NSTIM_NUMBER': 20.0,
+    #'NSTIM_INTERVAL': 1,
+    'NSTIM_WEIGHT':1
+}
 
-# Multipliers for parameter sweeping
-multipliers = [0.01, 1.0, 10.0]
+#factors = [20,50]
+factors = np.linspace(10, 20, 20)  # More granular range from 0.1 to 10
 
-for key in param_keys:
-    original_value = base_params[key]
-    for multiplier in multipliers:
-        cfg.NetStim1 = copy.deepcopy(base_params)  # reset to original
-        cfg.NetStim1[key] = original_value * multiplier
-        
-        safe_key = key.replace('_', '')  
-        safe_val = f"{original_value * multiplier:.6g}" 
-        
-        cfg.filename = f"data/GY/netstim_{safe_key}_{safe_val}"
+for key, base_val in base_params.items():
+    for factor in factors:
+        new_val = base_val * factor
+        env = copy.deepcopy(os.environ)
+        env[key] = str(new_val)
+        env['OUT_FILENAME'] = f"data/GY/"
+        #env['OUT_FILENAME'] = f"data/GY/{key.lower()}_{new_val:.4g}"
 
-        print(f"\n🚀 Running simulation with {key} = {cfg.NetStim1[key]}\n", flush=True)
-
-        sim.createSimulateAnalyze(netParams, cfg)
-
-        print(f"✅ Finished simulation with {key} = {cfg.NetStim1[key]}\n", flush=True)
+        print(f"🔁 Running {key} = {new_val}", flush=True)
+        subprocess.run(["python3", "init.py"], env=env)
+        print(f"✅ Done with {key} = {new_val}\n", flush=True)
